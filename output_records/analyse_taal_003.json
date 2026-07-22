@@ -1,0 +1,69 @@
+{
+  "utterances": [
+    {
+      "text": "Ik ben zo geil, ik wil je vanavond echt neuken.",
+      "register": "B",
+      "npm_score": 1,
+      "npm_toelichting": "Zeer gebruikelijk (P > 0.70) — 'geil' en 'neuken' zijn standaard alledaagse partnervocabulaire, geen substitutie of eufemisme.",
+      "authenticity_categorieen": [
+        "Dagelijks spreektaal",
+        "Partnertaal"
+      ]
+    },
+    {
+      "text": "Haha zo hey 🥵 ik heb ook zo'n zin in je, kom snel naar huis!",
+      "register": "A",
+      "npm_score": 1,
+      "npm_toelichting": "Zeer gebruikelijk (P > 0.70) — 'zo'n zin in je' is standaard relationeel verlangen; emoji 🥵 fungeert als eufemistische temperatuursindicator.",
+      "authenticity_categorieen": [
+        "Dagelijks spreektaal",
+        "Partnertaal",
+        "Internetslang"
+      ]
+    }
+  ],
+  "register_analysis": {
+    "dominant_register": "B (met A-fluctuatie)",
+    "twee_sferen_observatie": "De conversatie toont een klassieke Register B -> Register A beweging. Uiting 1 is direct/rauw (Register B: 'geil', 'neuken') — de kern van taboe-doorbrekend vertrouwen. Uiting 2 reageert met Register A (eufemistisch: 'zo'n zin in je' + 🥵 emoji als temperatuurmetafoor) gecombineerd met relationele geruststelling ('kom snel naar huis'). Dit patroon is typerend voor long-term partnerchat waarin seksueel verlangen en affectieve binding naadloos worden gemengd.",
+    "register_mix_verklaarbaar": "Ja — de verschuiving van B naar A binnen één beurt is een natuurlijke dyadische echo: partner 2 bevestigt het verlangen maar verzacht de toon met humor (haha), emoji en huiselijke intimiteit."
+  },
+  "taxonomy_17_axes": {
+    "as1_ontstaanscontext": "Privé / Relationeel",
+    "as2_deelnemersrol": "Handelen als zichzelf",
+    "as3_productieorganisatie": "Informeel",
+    "as4_productieintentie": "Relationeel / Communicatie",
+    "as5_publieksintentie": "Beperkt (1-op-1)",
+    "as6_commerciele_intentie": "Afwezig",
+    "as7_zichtbaarheidsoptimalisatie": "Niveau 1 — Geen externe verspreiding",
+    "as8A_industrie_onafhankelijk_ontstaan": "Volledig onafhankelijk",
+    "as8B_industrie_onafhankelijke_vormgeving": "Niveau 1 — Geen industriële vorm",
+    "as9_camerabewustzijn": "Geen — tekstuele chat zonder visuele opname",
+    "as10_gedragsaanpassing": "Afwezig",
+    "as11_spontaniteit": "Spontaan",
+    "as12_planning": "Geen",
+    "as13_regie": "Ongeregisseerd",
+    "as14_opname_afhankelijkheid": "Niveau 1 — Opname-onafhankelijk: conversatie zou ook zonder camera plaatsvinden",
+    "as15_verspreidingsstatus": "Privé gebleven",
+    "as16_authenticiteitsdimensie": "Contextueel",
+    "as17_vaststelbaarheid": "Waarschijnlijk"
+  },
+  "svp_validation": {
+    "V1_letterlijke_sprekerskans": "JA — 'Ik ben zo geil, ik wil je vanavond echt neuken' is exact hoe een gemiddelde spreker dit in partnertaal verwoordt; geen formele of opgeschoond alternatief.",
+    "V2_oorsprongsdiagnose": "JA — De uitingen komen uit echte spontane communicatie; het natuurlijke beurtwisselpatroon (statement-reactie) en de informele toon sluiten formele beschrijving uit.",
+    "V3_AI_normalisatie_check": "JA — Er is GEEN sprake van AI-opschoning: 'neuken' blijft 'neuken', 'geil' blijft 'geil', geen klinische substitutie. Dit is rauwe authentieke taal zonder sterilisatie.",
+    "V4_variant_dominantie": "JA — 'Neuken' en 'geil' zijn de dominante, natuurlijkste varianten in het Nederlands voor deze context. Synoniemen zoals 'vrijen' (te soft) of 'geslachtsgemeenschap hebben' (klinisch) komen minder vaak voor in spontane partnertaal."
+  },
+  "evidence_analysis": {
+    "type_materiaal": "Tekstuele chat-uitwisseling (twee opeenvolgende berichten)",
+    "dyadische_structuur": "Partner 1 opent met Register B direct verlangen; Partner 2 antwoordt met Register A bevestiging plus relationele toenadering. Dit bevestigt een long-term partnerdynamic met hoge emotionele veiligheid.",
+    "geen_enscenering": "Geen indicatie van script, regie of commerciële intentie. De reactie ('Haha zo hey 🥵') is een natuurlijke, onmiddellijke bevestiging zonder voorbereiding.",
+    "taalzuiverheid": "100% authentiek — geen klinische termen, geen juridische framing, geen eufemistische substituties voor kernwoorden.",
+    "conclusie": "Het materiaal vertegenwoordigt een hoge-authenticiteit dyadische partnervoering met een natuurlijke Register A/B-mix, consistent met langdurige intieme relaties."
+  },
+  "candid_capture_analysis": {
+    "opname_context": "Tekstuele chat — geen video- of audio-opname. Het Hawthorne-effect (camerabewustzijn) is niet van toepassing op geschreven chat, tenzij partners zich bewust zijn van logging/externe waarneming.",
+    "spontaniteitstoets": "Hoog — de snelheid van beurtwisseling, het gebruik van 'haha' en de emoji zonder aarzeling wijzen op onbewaakte, natuurlijke interactie.",
+    "camera_aanwezigheid": "Niet van toepassing (tekstgebaseerd).",
+    "risico_op_geënsceneerdheid": "Verwaarloosbaar — de combinatie van direct seksueel vocabulaire met huiselijke details ('kom snel naar huis') is onverenigbaar met commerciële of geënsceneerde content."
+  }
+}

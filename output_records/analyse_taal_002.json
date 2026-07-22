@@ -1,0 +1,164 @@
+{
+  "analyse_id": "taal_002",
+  "bronbestand": "input_taaldata/taal_002_flirt_register_a.txt",
+  "register_type": "A (Externe Flirt / Chat — Aftastend & Eufemistisch)",
+  "utterances": [
+    {
+      "text": "Hey, ben je al thuis? 👀",
+      "speaker": "A",
+      "register": "A",
+      "npm_score": 1,
+      "npm_toelichting": "Zeer gebruikelijk (P > 0.70) — standaard openingsvraag in datingapp-chat na werkdag",
+      "authenticity_categorieen": [5, 9],
+      "authenticity_labels": ["Dagelijks spreektaal", "Internetslang (emoji 👀)"]
+    },
+    {
+      "text": "Ja net! Jij ook?",
+      "speaker": "B",
+      "register": "A",
+      "npm_score": 1,
+      "npm_toelichting": "Zeer gebruikelijk (P > 0.70) — standaard wederkerige check-in",
+      "authenticity_categorieen": [5],
+      "authenticity_labels": ["Dagelijks spreektaal"]
+    },
+    {
+      "text": "Ja, ik zit op de bank. Stuur eens een leuk picje? 🙈",
+      "speaker": "A",
+      "register": "A",
+      "npm_score": 1,
+      "npm_toelichting": "Zeer gebruikelijk (P > 0.70) — 'picje' en 'leuk picje' zijn standaard alledaagse eufemismen in datingapp-flirt",
+      "authenticity_categorieen": [5, 9],
+      "authenticity_labels": ["Dagelijks spreektaal", "Internetslang (🙈 emoji, verkleinwoord picje)"]
+    },
+    {
+      "text": "Haha momentje hoor, ik maak zo wat leuks voor je via view once.",
+      "speaker": "B",
+      "register": "A",
+      "npm_score": 2,
+      "npm_toelichting": "Regelmatig gebruikt (P = 0.35–0.70) — 'view once' is frequent alternatief voor tijdelijke platformmedia; 'iets leuks' is standaard eufemisme",
+      "authenticity_categorieen": [5, 9, 10],
+      "authenticity_labels": ["Dagelijks spreektaal", "Internetslang", "Platformslang/Algospeak (view once)"]
+    }
+  ],
+  "register_analysis": {
+    "hoofdregister": "A — Externe Flirt / Chat (Aftastend & Eufemistisch)",
+    "kenmerken": [
+      "Impliciete en verhullende taal: 'leuk picje', 'iets leuks' als eufemismen voor een (mogelijk suggestieve) foto",
+      "Plausibele ontkenning: 'leuk picje' kan onschuldig worden uitgelegd, maar is in context een flirt-signaal",
+      "Platformspecifiek mechanisme: 'view once' biedt veiligheid en intimiteit zonder blijvend digitaal spoor",
+      "Geen directe/rauwe termen uit Register B (geen 'neuken', 'geil', etc.)"
+    ],
+    "register_verschuiving": "Geen — blijft consistent in Register A gedurende de hele conversatie",
+    "authenticiteitsoordeel": "Hoge authenticiteit; natuurlijke opbouw van small talk naar verzoek, met speelse emoji-ondersteuning"
+  },
+  "taxonomy_17_axes": {
+    "as1_ontstaanscontext": {
+      "waarde": "Privé",
+      "toelichting": "Datingapp-chat tussen twee personen in besloten setting"
+    },
+    "as2_deelnemersrol": {
+      "waarde": "Handelen als zichzelf",
+      "toelichting": "Geen aanwijzingen voor een gecreëerde rol of performance; natuurlijke spreektaal"
+    },
+    "as3_productieorganisatie": {
+      "waarde": "Informeel",
+      "toelichting": "Ongedwongen chat zonder redactie of professionele betrokkenheid"
+    },
+    "as4_productie_intentie": {
+      "waarde": "Relationeel / Communicatie",
+      "toelichting": "Doel is relationele verbinding en flirten, niet commercie of archief"
+    },
+    "as5_publieksintentie": {
+      "waarde": "Beperkt (1-op-1)",
+      "toelichting": "Berichten zijn uitsluitend bestemd voor de ontvanger in de chat"
+    },
+    "as6_commerciele_intentie": {
+      "waarde": "Afwezig",
+      "toelichting": "Geen indicatie van betaling, promotie of commercieel motief"
+    },
+    "as7_zichtbaarheidsoptimalisatie": {
+      "waarde": "Niveau 1 — Geen externe verspreiding",
+      "toelichting": "Tekst is niet geoptimaliseerd voor vindbaarheid of delen buiten de chat"
+    },
+    "as8A_industrie_onafhankelijk_ontstaan": {
+      "waarde": "Volledig onafhankelijk",
+      "toelichting": "Geen industriële of betaalde aanleiding voor de interactie"
+    },
+    "as8B_industrie_onafhankelijke_vormgeving": {
+      "waarde": "Niveau 1 — Geen industriële vorm",
+      "toelichting": "Natuurlijke spreektaal zonder standaardisatie of porno-conventies"
+    },
+    "as9_camerabewustzijn": {
+      "waarde": "Bewust zonder aanpassing",
+      "toelichting": "De 'view once'-verwijzing toont besef van het medium; de spreker blijft ongedwongen ('haha momentje hoor')"
+    },
+    "as10_gedragsaanpassing": {
+      "waarde": "Beperkt",
+      "toelichting": "Verzoek om 'leuk picje' impliceert lichte presentatiezorg, maar geen volledige enscenering"
+    },
+    "as11_spontaniteit": {
+      "waarde": "Spontaan",
+      "toelichting": "Natuurlijke gespreksflow zonder vooropgezet script"
+    },
+    "as12_planning": {
+      "waarde": "Beperkt",
+      "toelichting": "'Ik maak zo wat leuks voor je via view once' duidt op een ad-hoc beslissing, niet op een gepland moment"
+    },
+    "as13_regie": {
+      "waarde": "Ongeregisseerd",
+      "toelichting": "Geen aanwijzingen voor sturing, herhaling of regieaanwijzingen"
+    },
+    "as14_opname_afhankelijkheid": {
+      "waarde": "Niveau 6 — Niet vast te stellen",
+      "toelichting": "Onduidelijk of de foto al bestaat (archief) of nog speciaal voor deze gelegenheid wordt gemaakt"
+    },
+    "as15_verspreidingsstatus": {
+      "waarde": "Privé gebleven",
+      "toelichting": "Tekst is niet gedeeld buiten de chat; 'view once' impliceert tijdelijke, niet-bewaarde overdracht"
+    },
+    "as16_authenticiteitsdimensie": {
+      "waarde": "Contextueel",
+      "toelichting": "Authenticiteit blijkt uit spontane opbouw en informele toon binnen de datingapp-context"
+    },
+    "as17_vaststelbaarheid": {
+      "waarde": "Waarschijnlijk",
+      "toelichting": "Sterke linguïstische aanwijzingen voor echtheid, maar geen onafhankelijke verificatie van de opnamepraktijk"
+    }
+  },
+  "svp_validation": {
+    "V1_letterlijke_sprekerskans": {
+      "score": "JA",
+      "toelichting": "Een gemiddelde Nederlandse spreker in een datingapp-chat zou 'stuur eens een leuk picje' en 'via view once' letterlijk zo zeggen"
+    },
+    "V2_oorsprongsdiagnose": {
+      "score": "JA",
+      "toelichting": "De uitingen zijn herkenbaar als echte spontane communicatie, niet als formele beschrijving of script"
+    },
+    "V3_AI_normalisatie_check": {
+      "score": "JA",
+      "toelichting": "Geen AI-opschoning of sterilisatie; 'picje', 'view once' en emoji's zijn authentieke informele elementen die AI doorgaans vermijdt"
+    },
+    "V4_variant_dominantie": {
+      "score": "JA",
+      "toelichting": "Er is geen natuurlijkere variant die vaker voorkomt; 'leuk picje' is de meest courante informele vorm voor dit verzoek"
+    },
+    "eindconclusie": "Alle 4 SVP-vragen bevestigd (JA). De linguïstische conclusies zijn valide en vrij van AI-sterilisatie of formele bias."
+  },
+  "evidence_analysis": {
+    "bewijssterkte_overall": "Matige aanwijzing (Score 2)",
+    "anti_dubbeltellingsnotitie": "Niet van toepassing — er is geen sprake van gecorreleerde signalen uit één handeling die geconsolideerd moeten worden",
+    "taalkundige_indicatoren": [
+      "Verkleinvorm 'picje': typisch Nederlands informele verkleining, standaard in dagelijkse spreektaal",
+      "Eufemisme 'iets leuks': functioneert als containerbegrip voor een suggestieve foto zonder expliciete benoeming",
+      "Platformterm 'view once': lenen van Snapchat/Instagram-functionaliteit, wijst op digitaal bewustzijn",
+      "Emoji-gebruik (👀, 🙈): ondersteunt de speelse, niet-serieuze toon van het verzoek"
+    ],
+    "registerconsistentie": "Conversatie doorloopt consistent Register A — geen registerbreuk of escalatie naar directe taal"
+  },
+  "candid_capture_analysis": {
+    "hawthorne_effect_inschatting": "Laag — de conversatie is natuurlijk en ongedwongen; het verzoek om een foto via 'view once' toont weliswaar camerabewustzijn, maar de interactie verloopt spontaan",
+    "opname_besef": "Aanwezig (door expliciete 'view once'-referentie), maar leidt niet tot geforceerde pose of scriptgedrag",
+    "niet_geacteerde_authenticiteit": "De speelse toon ('haha momentje hoor', 🙈) en de organische opbouw van small talk naar verzoek duiden op authentieke, niet-geënsceneerde interactie",
+    "annotatie": "Het 'view once'-mechanisme fungeert als technische intimiteitswaarborg — het stelt de zender in staat een persoonlijke foto te delen zonder blijvend digitaal spoor, wat de drempel voor authenticiteit verlaagt"
+  }
+}

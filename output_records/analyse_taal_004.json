@@ -1,0 +1,71 @@
+{
+  "record_id": "taal_004_candid_capture",
+  "record_type": "metatext_opnamepraktijk",
+  "utterances": [],
+  "register_analysis": {
+    "has_utterances": false,
+    "note": "Geen letterlijke spreektaal of chatuitingen aangetroffen. Het document betreft een beschrijving van opnamepraktijk. Op basis van beschreven context (partners, intiem moment, ongeregisseerd) is het aannemelijk dat eventuele spreektaal binnen Register B (Intern / In-the-Moment) zou vallen, maar dit kan niet worden geverifieerd bij gebrek aan uitingen.",
+    "npm_scores": null
+  },
+  "taxonomy_17_axes": {
+    "as1_ontstaanscontext": "Privé",
+    "as2_deelnemersrol": "Handelen als zichzelf",
+    "as3_productieorganisatie": "Informeel",
+    "as4_productie_intentie": "Persoonlijk archief",
+    "as5_publieksintentie": "Persoonlijk",
+    "as6_commerciele_intentie": "Afwezig",
+    "as7_zichtbaarheidsoptimalisatie": {
+      "niveau": 1,
+      "toelichting": "Geen externe verspreiding — opname bewaard op beveiligde externe schijf"
+    },
+    "as8A_industrie_onafhankelijk_ontstaan": "Volledig onafhankelijk",
+    "as8B_industrie_onafhankelijke_vormgeving": {
+      "niveau": 1,
+      "toelichting": "Geen industriële vorm — ongeregisseerd, telefoon op boekenplank"
+    },
+    "as9_camerabewustzijn": "Bewust zonder aanpassing",
+    "as10_gedragsaanpassing": "Afwezig",
+    "as11_spontaniteit": "Spontaan",
+    "as12_planning": "Vooraf afgesproken",
+    "as13_regie": "Ongeregisseerd",
+    "as14_opname_afhankelijkheid": {
+      "niveau": 2,
+      "toelichting": "Overwegend opname-onafhankelijk — intiem moment zou ook zonder camera plaatsvinden"
+    },
+    "as15_verspreidingsstatus": "Privé gebleven",
+    "as16_authenticiteitsdimensie": "Contextueel",
+    "as17_vaststelbaarheid": "Waarschijnlijk"
+  },
+  "svp_validation": {
+    "V1_letterlijke_sprekerskans": "NEE",
+    "V2_oorsprongsdiagnose": "JA",
+    "V3_AI_normalisatie_check": "JA",
+    "V4_variant_dominantie": "JA",
+    "svp_toelichting": "V1 is NEE omdat het document geen letterlijke spreektaal bevat maar een beschrijving van opnamepraktijk. V2 bevestigt dat de beschrijving een reële opnamesituatie betreft met specifieke praktijkdetails (telefoon op boekenplank, beveiligde externe schijf). V3 bevestigt afwezigheid van AI-opschoning: de taal is feitelijk en descriptief zonder klinische of formele vervangingen. V4 bevestigt dat er geen natuurlijkere formulering bestaat voor dit metatekstuele gegeven."
+  },
+  "evidence_analysis": {
+    "bewijssterkte": {
+      "as9_camerabewustzijn": {
+        "score": 3,
+        "toelichting": "Sterke aanwijzing — expliciete beschrijving van opstelling (telefoon op boekenplank), geen regie, geen script, doelbewuste Hawthorne-minimalisatie"
+      },
+      "as14_opname_afhankelijkheid": {
+        "score": 3,
+        "toelichting": "Sterke aanwijzing — beschrijving maakt expliciet dat partners hun intieme moment zouden hebben ongeacht de camera"
+      },
+      "as15_verspreidingsstatus": {
+        "score": 2,
+        "toelichting": "Matige aanwijzing — beveiligde externe schijf is genoemd maar er is geen onafhankelijke verificatie van naleving"
+      }
+    },
+    "anti_dubbeltelling_consolidatie": "Geen dubbeltelling van toepassing — alle indicatoren zijn afkomstig uit onafhankelijke beschrijvingselementen (apparatuurplaatsing, opslaglocatie, regie-afwezigheid, partnerrol)."
+  },
+  "candid_capture_analysis": {
+    "opname_opstelling": "Telefoon onopvallend op boekenplank geplaatst",
+    "hawthorne_effect_minimalisatie": "Bewust geminimaliseerd. Door de telefoon op een boekenplank te plaatsen in plaats van als handheld camera wordt de visuele prikkel van opnameapparatuur verminderd. Partners raken naar verwachting na verloop van tijd minder bewust van de lens, wat spontaner en minder geposeerd gedrag mogelijk maakt.",
+    "regie_en_script": "Geen regie of script — volledige afwezigheid van geënsceneerde elementen",
+    "authenticiteitstoets": "Combinatie van onopvallende plaatsing, afwezigheid van regie en opslag op een beveiligde niet-gedeelde schijf verhoogt de kans op authentieke niet-geacteerde interactie. De opnamepraktijk is ontworpen om rauwe authenticiteit te bewaren en vertoont geen kenmerken van commerciële of geposeerde productie.",
+    "as9_toelichting": "Bewust zonder aanpassing — partners weten dat de telefoon opneemt maar het Hawthorne-effect is dusdanig geminimaliseerd dat zij naar verwachting geen posed gedrag vertonen. De lens is geen actief aandachtspunt tijdens het intieme moment.",
+    "conclusie": "De opnamepraktijk is ingericht op maximale authenticiteit met minimale verstoring van het intieme moment."
+  }
+}
