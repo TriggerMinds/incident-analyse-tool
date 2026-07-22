@@ -1,265 +1,115 @@
-# MASTER CODEBOOK — Geïntegreerd Gedragsmatig Codeboek (Domein A t/m P)
+# GEÏNTEGREERD GEDRAGSMATIG CODEBOEK (MASTER)
 
-Dit codeboek definieert het volledige analytische kader voor het classificeren, structureren en analyseren van visuele interacties en beeldmateriaal bij jongeren (15–18 jaar). Alle velden zijn neutraal, niet-juridisch en niet-moraliserend geformuleerd.
+## 1. Doel en analyseenheid
+De primaire analyseenheid is `IncidentRecord` voor onderzoek naar naakt- of seksueel getinte beelden en live visuele interacties onder jongeren (15-18 jaar).
 
----
-
-## 1. POPULATIONPROFILE (Domein A)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `Age` | 15 \| 16 \| 17 \| 18 |
-| `AgeCohort` | "15 jaar" \| "16-17 jaar" \| "18 jaar" \| "12-25 jaar (breed)" |
-| `Gender` | "M" \| "V" \| "NB" \| "ONBEKEND" |
-| `SocialPosition` | "leerling" \| "student" \| "werkend" \| "anders" \| "ONBEKEND" |
-| `Region` | "stedelijk" \| "platteland" \| "ONBEKEND" |
-| `SampleType` | "representatief" \| "kwalitatief" \| "incident" \| "onbekend" |
-| `PopulationBasis` | "leeftijdsgebaseerd" \| "schoolgebaseerd" \| "platformgebaseerd" \| "hulpverlening" \| "onbekend" |
-
----
-
-## 2. CONTEXTVECTOR (Domein B)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `EventLocation` | "slaapkamer of andere privéruimte" \| "woning van vriend" \| "feestlocatie" \| "openbare ruimte" \| "schoolterrein" \| "digitale ruimte" \| "ONBEKEND" |
-| `NetworkLocation` | "vaste relatie (1-op-1)" \| "vriendengroep" \| "groepschat (klas/jaarlaag)" \| "sociale media" \| "schoolnetwerk" \| "publiek platform" \| "ONBEKEND" |
-| `HarmLocation` | "geen gerapporteerde schade" \| "klas/school" \| "lokaal sociaal netwerk" \| "sociale media" \| "hulpverlening" \| "politie & justitie" \| "gezin" \| "ONBEKEND" |
-| `TimeContext` | Object met: `DayPart` ("ochtend"\|"middag"\|"avond"\|"nacht"), `WeekContext` ("schooldag"\|"weekend"\|"vakantie"), `Situation`, `Duration`, `Repetition` |
-| `SocialRelation` | "partner (vaste relatie)" \| "ex-partner" \| "vriend" \| "vriendengroep" \| "klasgenoot" \| "online bekende" \| "ONBEKEND" |
-| `GroupSize` | "1-op-1" \| "kleine groep (2-5)" \| "middelgrote groep (5-15)" \| "grote groep (15+)" \| "ONBEKEND" |
-
----
-
-## 3. BEHAVIOURALCONTENTRECORD (Domein C)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `VisibilityLevel` | "volledig gekleed" \| "gedeeltelijk ontkleed" \| "bovenlichaam gedeeltelijk" \| "naaktheid" \| "onduidelijk" \| "NIET GERAPPORTEERD" |
-| `BehaviourClass` | "poseren voor camera" \| "kleding verwijderen" \| "lichaam tonen" \| "intieme houding of gebaar" \| "zelfgerichte seksuele handeling (breed)" \| "seksuele interactie (breed)" \| "uitvoering opdracht/challenge" \| "gedrag onbekend" |
-| `ParticipantConfiguration` | "solo" \| "solo met kijker" \| "twee personen" \| "meerdere personen" \| "één zichtbaar + anderen buiten beeld" \| "ONBEKEND" |
-| `LiveOrRecorded` | "uitsluitend live" \| "live + opname" \| "vooraf opgenomen" \| "screenshot" \| "schermopname" \| "ONBEKEND" |
-| `InitiationMode` | "zelf geïnitieerd" \| "wederzijds" \| "na direct verzoek" \| "na herhaald verzoek" \| "dare/challenge" \| "groepsdruk" \| "ONBEKEND" |
-| `CameraOrientation` | "zelfopname" \| "door andere deelnemer" \| "door derde" \| "webcam" \| "schermopname" \| "ONBEKEND" |
-| `RecorderRelation` | "zelf opgenomen" \| "door deelnemer" \| "door derde" \| "op afstand opgenomen" \| "ONBEKEND" |
-| `SocialFunction` | "relationele intimiteit" \| "nieuwsgierigheid" \| "humor/speelsheid" \| "challenge/dare" \| "groepsacceptatie" \| "status/erkenning" \| "bewijs van deelname" \| "ONBEKEND" |
-| `IntendedAudience` | "alleen maker" \| "één ontvanger" \| "partner" \| "vriend" \| "beperkte groep" \| "groepschat" \| "publiek" \| "ONBEKEND" |
-| `ActualAudience` | "gelijk aan bedoeld" \| "beperkt uitgebreid" \| "schoolnetwerk" \| "meerdere groepen" \| "openbaar platform" \| "ONBEKEND" |
-
----
-
-## 4. VISUALSCRIPTRECORD (Domein D)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `PrimaryScript` | "relationeel vertrouwen" \| "humor/speelsheid" \| "status/erkenning" \| "challenge/dare" \| "groepsacceptatie" \| "nieuwsgierigheid/experiment" \| "impulsiviteit" \| "bewijs van deelname" \| "ONBEKEND" |
-| `SecondaryScripts` | Array van bovenstaande waarden |
-| `ScriptPhase` | "trigger" \| "participation" \| "capture" \| "first-share" \| "re-share" \| "discovery" |
-| `ReportedBy` | "deelnemer (maker)" \| "deelnemer (ontvanger)" \| "derde" \| "onderzoeker" \| "ONBEKEND" |
-| `Confidence` | "hoog" \| "middel" \| "laag" |
-
----
-
-## 5. NORMALIZATIONCONTEXTRECORD (Domein E)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `SocialGroup` | "vriendengroep" \| "klas" \| "school" \| "online community" \| "sportvereniging" \| "ONBEKEND" |
-| `NormalizationFrame` | "privé geaccepteerd" \| "genormaliseerd binnen relatie" \| "genormaliseerd in groep" \| "afgekeurd" \| "ONBEKEND" |
-| `DescriptiveNorm` | Omschrijving van gepercipieerde norm |
-| `InjunctiveNorm` | Omschrijving van wat goedkeuring krijgt |
-| `PerceivedPrevalence` | Geschatte prevalentie (percentage of "hoog"/"laag") |
-| `MeasuredPrevalence` | Werkelijk gemeten prevalentie |
-| `BoundaryConditions` | Grenzen van acceptatie |
-| `Dissent` | "stille weerstand" \| "expliciete afwijzing" \| "geen" \| "ONBEKEND" |
-
----
-
-## 6. DEVICEAFFORDANCERECORD (Domein F)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `Device` | "mobiele telefoon (GSM)" \| "laptop" \| "webcam" \| "tablet" \| "camera" \| "ONBEKEND" |
-| `PlatformType` | "verdwijnberichtendienst" \| "berichtenapp" \| "sociale media" \| "videochat" \| "groepschat" \| "ONBEKEND" |
-| `CaptureAffordances` | Array: "directe camera-opname" \| "screenshot" \| "schermopname" \| "tweede apparaat" \| "automatische opslag" |
-| `EphemeralityAffordances` | Array: "verdwijnbericht" \| "éénmalig bekijken" \| "geen indicator" \| "screenshot-melding" |
-| `DistributionFriction` | "laag" \| "middel" \| "hoog" |
-
----
-
-## 7. MEDIALIFECYCLERECORD (Domein G)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `Capture` | "bewuste zelfopname" \| "bewuste opname door ander" \| "schermopname" \| "screenshot" \| "tweede apparaat" \| "automatisch" \| "ONBEKEND" |
-| `Storage` | "tijdelijk (app)" \| "lokaal toestel" \| "cloud" \| "meerdere apparaten" \| "ONBEKEND" |
-| `FirstShare` | "partner (1-op-1)" \| "vriend" \| "beperkte groep" \| "groepschat" \| "ONBEKEND" |
-| `ReShare` | "geen" \| "met toestemming" \| "zonder toestemming" \| "via screenshot" \| "ONBEKEND" |
-| `PerceivedEphemerality` | "verdwijnend verondersteld" \| "tijdelijk bedoeld" \| "permanent bedoeld" \| "ONBEKEND" |
-| `ActualPersistence` | "lokaal opgeslagen" \| "cloud-back-up" \| "screenshot bij derden" \| "publiek beschikbaar" \| "ONBEKEND" |
-
----
-
-## 8. TRAJECTORYRECORD (Domein H)
-
-| Fase | Toegestane waarden |
-|---|---|
-| `Trigger` | "direct verzoek" \| "wederzijds initiatief" \| "dare/challenge" \| "relationeel verzoek" \| "humor/nieuwsgierigheid" \| "herhaald aandringen" \| "dreiging/chantage" \| "ONBEKEND" |
-| `Participation` | "zelfstandig geïnitieerd" \| "vrijwillig na verzoek" \| "impulsief" \| "onder sociale beïnvloeding" \| "onder groepsdruk" \| "dwang" \| "ONBEKEND" |
-| `Capture` | Zie MediaLifecycle.Capture |
-| `Storage` | Zie MediaLifecycle.Storage |
-| `FirstShare` | Zie MediaLifecycle.FirstShare |
-| `ReShare` | Zie MediaLifecycle.ReShare |
-| `Discovery` | "deelnemer ziet terug" \| "melding door vriend" \| "confrontatie op school" \| "ouder ontdekt" \| "politie/platform" \| "ONBEKEND" |
-| `Response` | "geen actie" \| "lachen/bagatelliseren" \| "verwijderingsverzoek" \| "blokkeren" \| "melding aan school/politie" \| "hulp zoeken" \| "ONBEKEND" |
-| `Impact` | "geen schade gerapporteerd" \| "spijt" \| "schaamte" \| "pesten/uitsluiting" \| "reputatieschade" \| "chantage" \| "psychische gevolgen" \| "ONBEKEND" |
-| `Recovery` | "geen interventie" \| "materiaal verwijderd" \| "sociale steun" \| "schoolinterventie" \| "hulpverlening" \| "juridisch" \| "ONBEKEND" |
-
----
-
-## 9. VISIBILITYINTENTMISMATCHRECORD (Domein I)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `MismatchTypes` | Array: "audience mismatch" \| "temporality mismatch" \| "purpose mismatch" \| "context mismatch" \| "identity mismatch" |
-| `MismatchMagnitude` | "geen" \| "beperkt" \| "substantieel" \| "totaal" |
-| `IntendedPurpose` | Zie `SocialFunction` |
-| `ActualUse` | "relationele communicatie" \| "humoristische performance" \| "statusmateriaal" \| "chantage" \| "vergelding" \| "ONBEKEND" |
-| `Identifiability` | "volledig herkenbaar" \| "deels herkenbaar" \| "niet herkenbaar" \| "ONBEKEND" |
-
----
-
-## 10. CONSENTBYACTIONRECORD (Domein J)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `ParticipationConsent` | "expliciet" \| "verondersteld" \| "onder druk" \| "niet vastgesteld" \| "NIET VAN TOEPASSING" |
-| `CaptureConsent` | "expliciet" \| "verondersteld" \| "zonder medeweten" \| "niet vastgesteld" |
-| `StorageConsent` | "expliciet" \| "verondersteld" \| "niet verwacht" \| "niet vastgesteld" |
-| `FirstShareConsent` | "expliciet" \| "verondersteld" \| "niet vastgesteld" |
-| `ReShareConsent` | "expliciet" \| "verondersteld" \| "niet vastgesteld" \| "expliciet geweigerd" |
-
----
-
-## 11. CONTROLLOSSRECORD (Domein K)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `FirstLossPoint` | "bij opname" \| "bij opslag" \| "bij first-share" \| "bij screenshot" \| "bij re-share" \| "ONBEKEND" |
-| `LossDomains` | Array: "aantal kopieën" \| "ontvangers" \| "verdere verspreiding" \| "context" |
-| `Reversibility` | "reversibel" \| "irreversibel" \| "deels reversibel" \| "ONBEKEND" |
-| `ParticipantAwareness` | "bekend op moment" \| "ontdekt achteraf" \| "nog steeds onbekend" \| "ONBEKEND" |
-
----
-
-## 12. RESPONSEANDRECOVERYRECORD (Domein L)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `ResponseActions` | Array: "verwijderingsverzoek" \| "blokkeren" \| "melding school" \| "melding politie" \| "gesprek vertrouwenspersoon" \| "hulp gezocht" \| "geen actie" |
-| `ImpactObserved` | Array: "spijt" \| "schaamte" \| "pesten" \| "reputatie-effect" \| "relationeel conflict" \| "psychische klachten" \| "geen impact" |
-| `RecoverySupport` | Array: "sociale steun" \| "schoolinterventie" \| "hulpverlening" \| "juridisch" \| "geen" |
-| `Status` | "geen interventie nodig" \| "actief herstel" \| "afgerond" \| "onbekend" |
-
----
-
-## 13. DELTAFIELDRECORD (Domein M)
-
-| Veld | Toegestane waarden |
-|---|---|
-| `BehaviourToImageConversionPoint` | "opname vanaf begin" \| "opname halverwege" \| "achteraf voorgesteld" \| "bewijs" \| "automatisch" \| "ONBEKEND" |
-| `PromptSourceMap` | "deelnemer zelf" \| "partner" \| "vriend" \| "groep" \| "groepschat" \| "online kijker" \| "challenge" \| "ONBEKEND" |
-| `ContentEscalationPath` | "poseren → kleding verwijderen → lichaam tonen → breder" |
-| `CameraPresenceEffect` | "geen effect" \| "meer cameragericht" \| "bewijsgedreven" \| "publiekgedreven" \| "ONBEKEND" |
-| `AudienceFeedbackLoop` | "verzoeken" \| "aanmoediging" \| "complimenten" \| "groepsdruk" \| "afwijzing" \| "ONBEKEND" |
-| `SessionBoundary` | "één korte interactie" \| "één langere sessie" \| "meerdere sessies" \| "terugkerend" \| "ONBEKEND" |
-| `CountingUnitProtocol` | "personen" \| "gebeurtenissen" \| "sessies" \| "beelden" \| "berichten" \| "meldingen" |
-| `BehaviouralStoppingPoint` | "deelnemer wil niet verder" \| "verzoek afgewezen" \| "technische onderbreking" \| "spijt/twijfel" \| "ONBEKEND" |
-
----
-
-## 14. MISSINGNESSMAP (Domein N)
-
-Voor elk variabel veld in het IncidentRecord wordt de informatiestatus gecodeerd:
-
-### Statuswaarden
-- `GEMETEN`: Rechtstreeks onderzocht/bevraagd in bron
-- `GERAPPORTEERD`: Expliciet vermeld, maar geen formeel meetinstrument
-- `AFGELEID`: Logisch afgeleid (verplicht met `InferenceReason` en `Confidence`)
-- `NIET GEMETEN`: Niet opgenomen in onderzoeksopzet
-- `NIET GERAPPORTEERD`: Mogelijk gemeten, maar niet gepubliceerd
-- `TEGENSTRIJDIG`: Incompatibele informatie uit bronnen
-- `NIET VAN TOEPASSING`: Variabele niet relevant voor casus
-
-### Geen stilzwijgende defaults
-1. Toestemming onbekend ≠ Vrijwillig
-2. Dwang niet genoemd ≠ Geen dwang
-3. Alcohol niet genoemd ≠ Nuchter
-4. Locatie niet genoemd ≠ Thuis
-5. Re-share niet genoemd ≠ Niet doorgestuurd
-6. Verwijdering gemeld ≠ Definitief verdwenen
-7. Lachen/bagatelliseren genoemd ≠ Geen schade
-
-### Syntax
-```json
-{
-  "VariableName": {
-    "Status": "GEMETEN | GERAPPORTEERD | AFGELEID | NIET GEMETEN | NIET GERAPPORTEERD | TEGENSTRIJDIG | NIET VAN TOEPASSING",
-    "ReportedValue": "waarde of null",
-    "EvidenceLocation": "bronverwijzing of null",
-    "InferenceReason": "reden bij AFGELEID of null",
-    "Confidence": "hoog | middel | laag | niet van toepassing"
-  }
+## 2. Hoofdarchitectuur
+IncidentRecord = {
+    PopulationProfile,
+    ContextVector,
+    BehaviouralContentRecord,
+    VisualScriptRecord,
+    NormalizationContextRecord,
+    DeviceAffordanceRecord,
+    MediaLifecycleRecord,
+    TrajectoryRecord,
+    VisibilityIntentMismatchRecord,
+    ConsentByActionRecord,
+    ControlLossRecord,
+    ResponseAndRecoveryRecord,
+    MissingnessMap,
+    EvidenceProfile
 }
-```
 
----
+## 3. Algemene Coderingsregels
+1. Gebruik gedragsmatige beschrijvingen in plaats van juridische kwalificaties.
+2. Codeer uitsluitend wat een bron daadwerkelijk meet, rapporteert of ondersteunt.
+3. Gebruik geen visuele indruk als zelfstandig bewijs van vrijwilligheid of instemming.
+4. Scheid deelname, opname, opslag, first-share en re-share.
+5. Scheid event-location, network-location en harm/impact-location.
+6. Scheid intended audience en actual audience.
+7. Scheid perceived ephemerality en actual persistence.
+8. Gebruik `onbekend` wanneer informatie ontbreekt. Geen stilzwijgende defaults.
+9. Maak zichtbaar of een waarde gemeten, gerapporteerd of afgeleid is.
+10. Gebruik geen labels als slachtoffer, dader, pleger of overtreder als standaardvariabelen.
 
-## 15. EVIDENCEPROFILE (Domein O)
+## DEEL A — POPULATIE (PopulationProfile)
+- Leeftijd: 15, 16, 17, 18, bredere groep, onbekend.
+- Leeftijdstype: exacte leeftijd, leeftijdsband, gemiddelde, onbekend.
+- Sociale positie: leerling, werkend, studerend, gemengd, niet gerapporteerd.
+- Land / Regio: stedelijk, landelijk, gemengd, onbekend.
+- Gender: broncategorieën behouden.
+- Steekproeftype: representatief, schoolsteekproef, online, klinisch, institutioneel, kwalitatief, casus.
+- Populatiebasis: leeftijdsgebaseerd, schoolgebaseerd, platformgebaseerd, hulpzoekend, gemengd.
 
-| Veld | Toegestane waarden |
-|---|---|
-| `SourceType` | "representatieve survey" \| "kwalitatief interview" \| "incidentmelding" \| "politiedata" \| "hulpverleningsdata" \| "mediabericht" \| "onbekend" |
-| `EvidenceStatus` | "rechtstreeks gemeten" \| "zelfgerapporteerd" \| "afgeleid uit bron" \| "onbekend" |
-| `SourceVisibilityBias` | "zelfrapportage" \| "schoolinterventie" \| "politie/justitie" \| "hulpverlening" \| "media" \| "onbekend" |
-| `GranularityLevel` | 0 \| 1 \| 2 \| 3 \| 4 |
-| `ContentFrequencyDenominator` | "alle jongeren" \| "jongeren die ooit maakten" \| "jongeren die ooit ontvingen" \| "jongeren die doorstuurden" \| "incidentmeldingen" |
+## DEEL B — CONTEXTVECTOR (ContextVector)
+- Event-location: eigen woning, woning van partner/vriend, slaapkamer/privéruimte, feest, logeerpartij, vakantieverblijf, voertuig, buitenlocatie, uitgaanslocatie, sport/vereniging, schoolgebouw, schoolterrein, schoolactiviteit buiten school, openbare ruimte, privévideoverbinding, groepsvideoverbinding, livestream, volledig online, onbekend.
+- Network-location: vaste relatie, informele relatie, voormalige relatie, 1-op-1 contact, vriendengroep, klasgroep, schoolnetwerk, sportteam, vereniging, feestgroep, privéchat, groepschat, online community, livestreampubliek, netwerk meerdere scholen, lokaal jongerennetwerk, onbekend.
+- Impact-location (Harm-location): geen negatieve gevolgen, privé, relatie, vriendengroep, klas, schoolnetwerk, sportteam/vereniging, gezin, lokaal netwerk, sociale media, openbaar platform, hulpverlening, institutionele reactie, onbekend.
+- Tijdcontext: Dagdeel (ochtend, middag, avond, nacht), Weekcontext (schooldag, weekend, vakantie), Situatie (feest, date, logeerpartij, informele ontmoeting, online sessie), Duur (momentaan, minuten, uren, herhaald), Herhaling (eenmalig, incidenteel, herhaald, routinematig).
+- Sociale relatie: partner, informele partner, voormalige partner, vriend(in), klasgenoot, schoolgenoot, groepslid, sport/verenigingscontact, online bekende, nauwelijks bekende, onbekende, gemengd, onbekend.
 
----
+## DEEL C — GEDRAGSMATIGE INHOUD (BehaviouralContentRecord)
+- Zichtbaarheidsniveau: volledig gekleed, gedeeltelijk ontkleed, bovenlichaam zichtbaar, naaktheid, intieme context zonder verdere specificatie, seksuele gedraging in brede categorie, zichtbaarheid onduidelijk, niet gerapporteerd.
+- Gedragsklasse: poseren, kleding verwijderen, lichaam tonen, intieme houding of gebaar, zelfgerichte seksuele gedraging (breed), seksuele interactie 2 personen (breed), seksuele interactie meerdere personen (breed), visuele performance voor kijkers, uitvoering van opdracht/challenge, humoristische/speelse performance, gedrag onvoldoende beschreven, onbekend.
+- Deelnemersconfiguratie: solo, solo met 1 kijker, solo met meerdere kijkers, 2 zichtbare deelnemers, meerdere zichtbare deelnemers, 1 zichtbare deelnemer met anderen buiten beeld, configuratie onbekend.
+- Live of opgenomen: uitsluitend live, live en gelijktijdig opgenomen, vooraf opgenomen, later gedeeld fragment, screenshot, schermopname, samengesteld/gemonteerd, onbekend.
+- Ontstaanswijze: spontaan, impulsief, gedeeltelijk voorbereid, vooraf afgesproken, herhaald, relationele uitwisseling, groepssituatie, spel/dare/challenge, bewijs van deelname, onbekend.
+- Cameragerichtheid: bewust voor camera, camera legt bestaande interactie vast, zelfopname, opname door andere deelnemer, opname door derde, webcamgerichte uitvoering, schermopname, opname tweede apparaat, opnamewijze onbekend.
 
-## 16. NON-EVENT BASELINE (Domein P — dwarsdoorsnijdend)
+## DEEL D — VISUAL-SCRIPT TAXONOMY (VisualScriptRecord)
+Scripts: relationeel vertrouwen, wederkerigheid, humor, status, challenge, groepsacceptatie, nieuwsgierigheid, impulsiviteit, bewijs van deelname, sociale performance, relationele verwachting, onbekend.
+Structuur: { PrimaryScript, SecondaryScripts, ScriptIndicators, ScriptPhase, ReportedBy, Confidence }
 
-Verplichte registratie voor alle casussen: geef aan of er sprake is van een Non-Event Baseline (geen escalatie, geen schade, geen ongeautoriseerde verspreiding).
+## DEEL E — NORMALIZATION-CONTEXT (NormalizationContextRecord)
+- Groepsframing: normaal, gebruikelijk, verwacht, grappig, speels, experimenteel, statusverhogend, riskant maar gebruikelijk, privé maar geaccepteerd, uitzonderlijk, ongewenst, omstreden, onbekend.
+- Normbron: partner, vriendengroep, klas/schoolgenoten, feestgroep, sportteam, online community, platformcultuur, bredere jeugdcultuur, onbekend.
+- Normmechanisme: voorbeeldgedrag, herhaald voorkomen, humor, complimenten, reacties/likes, statusbeloning, plagen, expliciete verwachting, impliciete verwachting, challengeformat, uitsluitingsdreiging, onbekend.
+- Normen: DescriptiveNorm (wat jongeren denken dat anderen doen) vs InjunctiveNorm (wat jongeren denken dat anderen goedkeuren).
 
-```json
-{
-  "NonEventBaseline": true | false,
-  "BaselineType": "besloten gebleven" | "consensueel" | "geen schade" | "niet van toepassing"
-}
-```
+## DEEL F — DEVICE-MEDIATED AFFORDANCES (DeviceAffordanceRecord)
+- Apparaat: mobiele telefoon, webcam, laptopcamera, tablet, externe camera, gedeeld apparaat, tweede opnameapparaat, onbekend.
+- Platformtype: privéchat, groepschat, verdwijnberichtendienst, sociale media, story, videochat, groepsvideo, livestream, cloudopslag, onbekend.
+- Opname-affordances: directe camera-opname, screenshot, schermopname, opname tweede apparaat, automatische opslag/archivering, lokale opslag, cloudback-up, opname door kijker, onbekend.
+- Verspreidingsaffordances: 1-op-1 verzenden, doorsturen met weinig handelingen, groepschat delen, story plaatsen, openbaar uploaden, downloaden en heruploaden, platformoverschrijdend delen, sessielink delen, deelnemers toevoegen, onbekend.
+- Tijdelijkheidsaffordances: 1-malig bekijken, verdwijnbericht, tijdelijke story, automatische verwijdering, screenshotmelding (aan/uit), schermopname mogelijk, opslag tweede apparaat mogelijk, cloud/cacheherstel mogelijk, onbekend.
 
----
+## DEEL G — MEDIA-LIFECYCLE (MediaLifecycleRecord)
+Lifecycle: capture -> storage -> first-share -> re-share -> persistence
+- Capture: geen opname, bewuste zelfopname, bewuste opname door ander, gezamenlijke opname, opname door derde, screenshot, schermopname, opname tweede apparaat, automatische opname, opname zonder medeweten, onbekend.
+- Storage: niet opgeslagen, lokaal opgeslagen, meerdere apparaten, tijdelijk opgeslagen, automatisch opgeslagen, cloudopslag, app-cache, direct verwijderd, verwijdering niet verifieerbaar, onbekend.
+- First-share: niet gedeeld, getoond op hetzelfde apparaat, 1 ontvanger, partner, vriend, kleine besloten groep, groepschat, tijdelijk bericht, livestreampubliek, openbaar, onbekend.
+- Re-share: niet verder gedeeld, met instemming verder gedeeld, zonder bekende instemming verder gedeeld, gekopieerd, screenshot, schermopname, naar andere groep verplaatst, platformoverschrijdend gedeeld, openbaar herplaatst, omvang onbekend.
+- Persistence: niet bewaard, tijdelijk beschikbaar, lokaal bewaard, cloudkopie, meerdere kopieën, langdurig beschikbaar, publiek beschikbaar, vermoedelijk verwijderd, onbekend.
+- Perceived ephemerality vs Actual persistence afzonderlijk gecodeerd.
 
-## VOLLEDIGE INCIDENTRECORD-SYNTAX
+## DEEL H — TRAJECTORY-MODEL (TrajectoryRecord)
+Keten: trigger -> participation -> capture -> storage -> first-share -> re-share -> discovery -> response -> impact/recovery.
+- Trigger: zelfstandig initiatief, wederzijds initiatief, direct verzoek, herhaald verzoek, relationele verwachting, groepsspel, dare/challenge, humor, nieuwsgierigheid, groepsnorm, sociale erkenning, feestcontext, alcohol/middelencontext, dreiging, onbekend.
+- Participation: zelfstandig geïnitieerd, vrijwillig na verzoek, wederzijds afgesproken, impulsief, na sociale beïnvloeding, na herhaald aandringen, onder groepsdruk, onder relationele druk, onder dreiging, ambivalent, onbekend.
+- Discovery: zelf teruggezien, melding partner/vriend, ontdekking groepschat/schoolnetwerk, ouder/verzorger ontdekt, platformmelding, hulpverlener, institutionele ontdekking, publieke ontdekking, onbekend.
+- Response: geen actie, lachen, bagatelliseren, onderling bespreken, verzoek om verwijdering, blokkeren, groep verlaten, platformmelding, steun zoeken, gesprek vertrouwde persoon, schoolreactie, institutionele reactie, ontkenning, schuldtoewijzing, herstelpoging, onbekend.
+- Impact: geen negatieve impact gerapporteerd, spijt, schaamte, onzekerheid, verlies van vertrouwen, relationeel conflict, pesten, uitsluiting, reputatie-effect, aanhoudende verspreiding, sociale terugtrekking, schoolproblemen, emotionele belasting, onbekend.
+- Recovery: materiaal verwijderd, verspreiding beperkt, sociale steun, relatie hersteld, platforminterventie, school/hulpverleningssteun, veranderde privacypraktijken, geen herstel vastgesteld, onbekend.
 
-```json
-{
-  "incident_id": "string",
-  "timestamp": "ISO 8601",
-  "PopulationProfile": { },
-  "ContextVector": { },
-  "BehaviouralContentRecord": { },
-  "VisualScriptRecord": { },
-  "NormalizationContextRecord": { },
-  "DeviceAffordanceRecord": { },
-  "MediaLifecycleRecord": { },
-  "TrajectoryRecord": { },
-  "VisibilityIntentMismatchRecord": { },
-  "ConsentByActionRecord": { },
-  "ControlLossRecord": { },
-  "ResponseAndRecoveryRecord": { },
-  "DeltaFieldRecord": { },
-  "MissingnessMap": { },
-  "EvidenceProfile": { }
-}
-```
+## DEEL I — VISIBILITY-INTENT MISMATCH (VisibilityIntentMismatchRecord)
+Typen: audience mismatch, temporality mismatch, purpose mismatch, context mismatch, identifiability mismatch, no mismatch established, unknown.
+Omvang: geen aangetoonde mismatch, beperkt, substantieel, zeer groot, onbekend.
+
+## DEEL J — INSTEMMING PER HANDELING (ConsentByActionRecord / InstemmingPerHandeling)
+Fasen afzonderlijk coderen: deelname, opname, opslag, first-share, re-share, blijvende beschikbaarheid.
+Waarden: expliciet, impliciet, ambivalent, onder druk, verondersteld, niet vastgesteld, geaccepteerd, niet verwacht, onbekend.
+
+## DEEL K — CONTROLEVERLIES (ControlLossRecord)
+FirstLossPoint: geen controleverlies vastgesteld, bij capture, bij automatische opslag, bij first-share, bij screenshot/schermopname, bij re-share, bij platformoverschrijdende verspreiding, bij publieke plaatsing, onbekend.
+
+## DEEL L — MISSINGNESS-MAP (MissingnessMap)
+Statuswaarden per variabele: gemeten, gerapporteerd, afgeleid, niet gemeten, niet gerapporteerd, tegenstrijdig, niet van toepassing.
+STRIKTE REGEL: Geen stilzwijgende defaults (toestemming onbekend != vrijwillig; druk niet genoemd != geen druk; alcohol niet genoemd != nuchter; re-share niet genoemd != niet doorgestuurd; schade niet genoemd != geen schade).
+
+## DEEL M — BEWIJSPROFIEL (EvidenceProfile)
+Bronsoorten: representatieve survey, niet-representatieve survey, longitudinaal onderzoek, interviews, focusgroepen, etnografisch onderzoek, platformanalyse, contentanalyse, school/hulpverleningsdata, incidentrapport, mediabron, onbekend.
+
+## DEEL N — FREQUENTIE EN VERGELIJKING
+Content-frequency denominator ALTIJD verplicht bij percentages.
+Behavioural granularity ladder: Niveau 0 (brede seksuele content) t/m Niveau 4 (volledig script, camerafunctie en publiek) en Niveau 5 (volledige lifecycle).
