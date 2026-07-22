@@ -1,0 +1,90 @@
+{
+  "utterances": [
+    {
+      "text": "Zullen we vanavond neuken? Ik ben zo geil",
+      "spreker": "man (28)",
+      "register": "B",
+      "npm_score": 1,
+      "npm_toelichting": "Zeer gebruikelijk (P > 0,70) — standaard alledaagse intieme spreektaal tussen vaste partners.",
+      "authenticity_categorieen": ["Dagelijks spreektaal", "Partnertaal (Couple talk)"]
+    },
+    {
+      "text": "Ja is goed, stuur alvast een leuk picje \ud83d\ude48",
+      "spreker": "vrouw (28)",
+      "register": "A",
+      "npm_score": 1,
+      "npm_toelichting": "Zeer gebruikelijk (P > 0,70) — 'picje' is standaard alledaagse term in Nederlandse chatcultuur.",
+      "authenticity_categorieen": ["Dagelijks spreektaal", "Partnertaal (Couple talk)", "Internetslang"]
+    }
+  ],
+  "register_analysis": {
+    "register_A_uitingen": 1,
+    "register_B_uitingen": 1,
+    "register_A_voorbeelden": ["Ja is goed, stuur alvast een leuk picje \ud83d\ude48"],
+    "register_B_voorbeelden": ["Zullen we vanavond neuken? Ik ben zo geil"],
+    "register_A_kenmerken": "Eufemistisch, verhullend ('leuk picje'), gebruik van emoji (\ud83d\ude48) voor speelsheid en plausible ontkenning.",
+    "register_B_kenmerken": "Direct, rauw, taboe-doorbrekend ('neuken', 'geil') — kernmarker van emotionele veiligheid en intimiteit binnen besloten relatie.",
+    "polarisatie_conclusie": "Klassiek voorbeeld van registerscheiding: de man initieert in register B (direct), de vrouw reageert instemmend in register A (eufemistisch). Beide registers vervullen een complementaire functie binnen één interactie."
+  },
+  "taxonomy_17_axes": {
+    "as_1_ontstaanscontext": "Priv\u00e9",
+    "as_2_deelnemersrol": "Handelen als zichzelf",
+    "as_3_productieorganisatie": "Informeel",
+    "as_4_productie_intentie": "Relationeel / Communicatie",
+    "as_5_publieksintentie": "Beperkt (1-op-1)",
+    "as_6_commerciele_intentie": "Afwezig",
+    "as_7_zichtbaarheidsoptimalisatie": "Niveau 1 (Geen externe verspreiding) — besloten WhatsApp-chat, geen optimalisatie.",
+    "as_8A_industrie_onafhankelijk_ontstaan": "Volledig onafhankelijk",
+    "as_8B_industrie_onafhankelijke_vormgeving": "Niveau 1 (Geen industri\u00eble vorm)",
+    "as_9_camerabewustzijn": "Bewust zonder aanpassing — de man plaatst zijn telefoon bewust op het nachtkastje, maar de omschrijving ('spontane foto') wijst op natuurlijk gedrag zonder excessieve posed aanpassing.",
+    "as_10_gedragsaanpassing": "Afwezig",
+    "as_11_spontaniteit": "Spontaan",
+    "as_12_planning": "Geen",
+    "as_13_regie": "Ongeregisseerd",
+    "as_14_opname_afhankelijkheid": "Niveau 1 (Opname-onafhankelijk) — de WhatsApp-conversatie en de seksuele handeling zouden ook zonder camera hebben plaatsgevonden; de foto is een spontane toevoeging.",
+    "as_15_verspreidingsstatus": "Priv\u00e9 gebleven",
+    "as_16_authenticiteitsdimensie": "Contextueel — authentiek binnen de beschreven relationele context (vaste partners, besloten chat).",
+    "as_17_vaststelbaarheid": "Waarschijnlijk — beschreven scenario op basis van inhoudelijke consistentie; geen onafhankelijke verificatie beschikbaar."
+  },
+  "svp_validation": {
+    "V1_letterlijke_sprekerskans": {
+      "antwoord": "JA",
+      "toelichting": "Zowel 'Zullen we vanavond neuken?' als 'stuur een leuk picje' zijn uitingen die een gemiddelde Nederlandse spreker in een besloten partnerchat letterlijk zo zou zeggen."
+    },
+    "V2_oorsprongsdiagnose": {
+      "antwoord": "JA",
+      "toelichting": "De uitingen zijn afkomstig uit beschreven spontane communicatie (WhatsApp), niet uit een formele beschrijving."
+    },
+    "V3_AI_normalisatie_check": {
+      "antwoord": "JA",
+      "toelichting": "Geen AI-opschoning of sterilisatie: de rauwe termen 'neuken' en 'geil' zijn intact en niet vervangen door klinische alternatieven zoals 'geslachtsgemeenschap'."
+    },
+    "V4_variant_dominantie": {
+      "antwoord": "JA",
+      "toelichting": "'Zullen we neuken?' is de dominante natuurlijke variant; een geformaliseerde variant zoals 'Zullen we geslachtsgemeenschap hebben?' komt in priv\u00e9-chats vrijwel nooit voor (NPM Score 5/6)."
+    }
+  },
+  "evidence_analysis": {
+    "bewijssterkte_register_B": {
+      "score": 3,
+      "schaal": "Sterke aanwijzing",
+      "toelichting": "Twee directe register-B-markers ('neuken', 'geil') in \u00e9\u00e9n uiting. Consistent met interne partnertaal."
+    },
+    "bewijssterkte_register_A": {
+      "score": 2,
+      "schaal": "Matige aanwijzing",
+      "toelichting": "Register-A-marker 'picje' met \ud83d\ude48-emoji. Eufemistisch en verhullend, consistent met extern flirtregister."
+    },
+    "anti_dubbeltelling": {
+      "van_toepassing": false,
+      "toelichting": "Anti-dubbeltellingsregel is alleen van toepassing op As 7 (Zichtbaarheidsoptimalisatie) bij gecorreleerde signalen uit \u00e9\u00e9n handeling (bv. titel + tags + thumbnail op 1 forum). De lingu\u00efstische markers 'neuken' en 'geil' zijn onderscheiden lexicale items die elkaar versterken; consolidatie is niet vereist.",
+      "alternatief_indien_wel": "N.v.t."
+    }
+  },
+  "candid_capture_analysis": {
+    "opname_context": "De man plaatst zijn telefoon op een nachtkastje en maakt een spontane foto.",
+    "hawthorne_effect_beoordeling": "Beperkt Hawthorne-effect. De vrouw vraagt expliciet om een foto ('stuur alvast een leuk picje'), wat camerabewustzijn introduceert. Echter, de plaatsing van de telefoon is onopvallend (nachtkastje) en de foto wordt beschreven als spontaan. Dit wijst op een poging om rauwe authenticiteit te bewaren, niet op geënsceneerde of geposeerde productie. De opnamepraktijk is consistent met alledaags partnergebruik van smartphones.",
+    "classificatie": "Niet-commercieel / niet-geënsceneerd — onopvallende opstelling met minimale gedragsbeïnvloeding.",
+    "candid_capture_score": "Candid — overwegend authentiek, lichte mate van camerabewustzijn door expliciet verzoek."
+  }
+}
