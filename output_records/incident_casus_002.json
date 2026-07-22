@@ -1,0 +1,211 @@
+{
+  "IncidentRecord": {
+    "RecordMetadata": {
+      "CaseID": "casus_002",
+      "Title": "Relatiedynamiek - onderkledingfoto-uitwisseling in vaste relatie",
+      "RecordType": "NonEventBaseline",
+      "NonEventBaseline": true,
+      "Description": "Twee 17-jarigen in een vaste relatie wisselen 's avonds vanuit hun eigen slaapkamers via een privéchat een zelfgemaakte foto in onderkleding uit (1-op-1). Geen verdere verspreiding, materiaal blijft lokaal op de toestellen, geen negatieve impact."
+    },
+    "PopulationProfile": {
+      "Leeftijd": [17, 17],
+      "LeeftijdType": "exacte leeftijd",
+      "SocialePositie": "niet gerapporteerd",
+      "LandRegio": "onbekend",
+      "Gender": "onbekend",
+      "SteekproefType": "casus",
+      "PopulatieBasis": "niet gerapporteerd"
+    },
+    "ContextVector": {
+      "EventLocation": ["eigen woning", "slaapkamer/privéruimte"],
+      "NetworkLocation": ["vaste relatie", "1-op-1 contact", "privéchat"],
+      "HarmLocation": "geen negatieve gevolgen",
+      "Tijdcontext": {
+        "Dagdeel": "avond",
+        "Weekcontext": "onbekend",
+        "Situatie": "online sessie",
+        "Duur": "momentaan",
+        "Herhaling": "eenmalig"
+      },
+      "SocialeRelatie": "partner"
+    },
+    "BehaviouralContentRecord": {
+      "Zichtbaarheidsniveau": "gedeeltelijk ontkleed",
+      "Gedragsklasse": "poseren",
+      "Deelnemersconfiguratie": "solo",
+      "LiveOfOpgenomen": "vooraf opgenomen",
+      "Ontstaanswijze": "relationele uitwisseling",
+      "Cameragerichtheid": "zelfopname"
+    },
+    "VisualScriptRecord": {
+      "PrimaryScript": "relationeel vertrouwen",
+      "SecondaryScripts": ["wederkerigheid"],
+      "ScriptIndicators": ["uitwisseling binnen vaste relatie", "wederzijdse versturing"],
+      "ScriptPhase": "uitvoering",
+      "ReportedBy": "casusbeschrijving",
+      "Confidence": "hoog"
+    },
+    "NormalizationContextRecord": {
+      "Groepsframing": "privé maar geaccepteerd",
+      "Normbron": "partner",
+      "Normmechanisme": "impliciete verwachting",
+      "DescriptiveNorm": "onbekend",
+      "InjunctiveNorm": "onbekend"
+    },
+    "DeviceAffordanceRecord": {
+      "Apparaat": "mobiele telefoon",
+      "Platformtype": "privéchat",
+      "OpnameAffordances": ["directe camera-opname", "lokale opslag"],
+      "Verspreidingsaffordances": ["1-op-1 verzenden"],
+      "Tijdelijkheidsaffordances": "onbekend"
+    },
+    "MediaLifecycleRecord": {
+      "Capture": "bewuste zelfopname",
+      "Storage": "lokaal opgeslagen",
+      "FirstShare": {
+        "Ontvanger": "partner",
+        "Bereik": "1 ontvanger"
+      },
+      "ReShare": "niet verder gedeeld",
+      "Persistence": "lokaal bewaard",
+      "PerceivedEphemerality": "onbekend",
+      "ActualPersistence": "lokaal bewaard"
+    },
+    "TrajectoryRecord": {
+      "Trigger": "wederzijds initiatief",
+      "Participation": "wederzijds afgesproken",
+      "Discovery": "zelf teruggezien",
+      "Response": "geen actie",
+      "Impact": "geen negatieve impact gerapporteerd",
+      "Recovery": "geen herstel vastgesteld"
+    },
+    "VisibilityIntentMismatchRecord": {
+      "Type": "no mismatch established",
+      "Omvang": "geen aangetoonde mismatch"
+    },
+    "ConsentByActionRecord": {
+      "Deelname": "impliciet",
+      "Opname": "impliciet",
+      "Opslag": "geaccepteerd",
+      "FirstShare": "impliciet",
+      "ReShare": "niet verwacht",
+      "BlijvendeBeschikbaarheid": "geaccepteerd"
+    },
+    "ControlLossRecord": {
+      "FirstLossPoint": "geen controleverlies vastgesteld"
+    },
+    "MissingnessMap": {
+      "PopulationProfile": {
+        "Leeftijd": "gemeten",
+        "LeeftijdType": "gerapporteerd",
+        "SocialePositie": "niet gerapporteerd",
+        "LandRegio": "niet gerapporteerd",
+        "Gender": "niet gerapporteerd",
+        "SteekproefType": "gerapporteerd",
+        "PopulatieBasis": "niet gerapporteerd"
+      },
+      "ContextVector": {
+        "EventLocation": "gerapporteerd",
+        "NetworkLocation": "gerapporteerd",
+        "HarmLocation": "gerapporteerd",
+        "TijdcontextDagdeel": "gerapporteerd",
+        "TijdcontextWeekcontext": "niet gerapporteerd",
+        "TijdcontextSituatie": "afgeleid",
+        "TijdcontextDuur": "afgeleid",
+        "TijdcontextHerhaling": "afgeleid",
+        "SocialeRelatie": "gerapporteerd"
+      },
+      "BehaviouralContentRecord": {
+        "Zichtbaarheidsniveau": "gerapporteerd",
+        "Gedragsklasse": "afgeleid",
+        "Deelnemersconfiguratie": "afgeleid",
+        "LiveOfOpgenomen": "gerapporteerd",
+        "Ontstaanswijze": "afgeleid",
+        "Cameragerichtheid": "afgeleid"
+      },
+      "VisualScriptRecord": {
+        "PrimaryScript": "afgeleid",
+        "SecondaryScripts": "afgeleid",
+        "ScriptIndicators": "afgeleid",
+        "ScriptPhase": "afgeleid",
+        "ReportedBy": "gerapporteerd",
+        "Confidence": "afgeleid"
+      },
+      "NormalizationContextRecord": {
+        "Groepsframing": "afgeleid",
+        "Normbron": "afgeleid",
+        "Normmechanisme": "afgeleid",
+        "DescriptiveNorm": "niet gerapporteerd",
+        "InjunctiveNorm": "niet gerapporteerd"
+      },
+      "DeviceAffordanceRecord": {
+        "Apparaat": "afgeleid",
+        "Platformtype": "gerapporteerd",
+        "OpnameAffordances": "afgeleid",
+        "Verspreidingsaffordances": "afgeleid",
+        "Tijdelijkheidsaffordances": "niet gerapporteerd"
+      },
+      "MediaLifecycleRecord": {
+        "Capture": "gerapporteerd",
+        "Storage": "gerapporteerd",
+        "FirstShare": "gerapporteerd",
+        "ReShare": "gerapporteerd",
+        "Persistence": "gerapporteerd",
+        "PerceivedEphemerality": "niet gerapporteerd",
+        "ActualPersistence": "gerapporteerd"
+      },
+      "TrajectoryRecord": {
+        "Trigger": "afgeleid",
+        "Participation": "afgeleid",
+        "Discovery": "afgeleid",
+        "Response": "afgeleid",
+        "Impact": "gerapporteerd",
+        "Recovery": "afgeleid"
+      },
+      "VisibilityIntentMismatchRecord": {
+        "Type": "afgeleid",
+        "Omvang": "afgeleid"
+      },
+      "ConsentByActionRecord": {
+        "Deelname": "afgeleid",
+        "Opname": "afgeleid",
+        "Opslag": "afgeleid",
+        "FirstShare": "afgeleid",
+        "ReShare": "afgeleid",
+        "BlijvendeBeschikbaarheid": "afgeleid"
+      },
+      "ControlLossRecord": {
+        "FirstLossPoint": "afgeleid"
+      },
+      "EvidenceProfile": {
+        "Bronsoort": "gerapporteerd"
+      }
+    },
+    "EvidenceProfile": {
+      "Bronsoort": "incidentrapport",
+      "BronSpecificatie": "casusbeschrijving casus_002"
+    },
+    "DeltaInsights": {
+      "BehaviouralGranularityLevel": 2,
+      "ContentFrequencyDenominator": "DENOM_05",
+      "CaptureDependencyField": "pre-existing",
+      "ContentToCirculationTransformation": "privé-communicatie",
+      "ViewerParticipationLayer": ["passief kijken"],
+      "RequestToActionDistance": "onmiddellijk/impulsief",
+      "VisibilityEscalationScore": 1,
+      "ContentSourceBias": "casus",
+      "NonEventBaseline": true,
+      "SequencePattern": "Pattern Alpha",
+      "BehaviourToImageConversionPoint": "opname vanaf begin doel",
+      "PromptSourceMap": "deelnemer zelf",
+      "ContentEscalationPath": ["poseren"],
+      "CameraPresenceEffect": "geen zichtbaar effect",
+      "AudienceFeedbackLoop": "onbekend",
+      "SessionBoundaryField": "1 korte interactie",
+      "ImageSetStructure": "1 beeld per deelnemer",
+      "CountingUnitProtocol": "personen",
+      "BehaviouralStoppingPoint": "geen verdere escalatie gevraagd",
+      "CrossSourceTranslation": "niet van toepassing"
+    }
+  }
+}

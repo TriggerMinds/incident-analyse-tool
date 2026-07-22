@@ -1,0 +1,232 @@
+{
+  "IncidentRecord": {
+    "PopulationProfile": {
+      "Leeftijd": "18 (maker); 15-18 (subject, afgeleid van 'leeftijdsgenoot')",
+      "Leeftijdstype": "gemengd: exact (maker), leeftijdsband (subject)",
+      "SocialePositie": "leerling",
+      "LandRegio": "onbekend",
+      "Gender": "onbekend",
+      "Steekproeftype": "casus",
+      "Populatiebasis": "schoolgebaseerd",
+      "_Missingness": {
+        "Leeftijd": "gemeten (maker), afgeleid (subject)",
+        "Leeftijdstype": "gemeten",
+        "SocialePositie": "afgeleid",
+        "LandRegio": "niet gemeten",
+        "Gender": "niet gemeten",
+        "Steekproeftype": "gemeten",
+        "Populatiebasis": "afgeleid"
+      }
+    },
+    "ContextVector": {
+      "EventLocation": "feest (huisfeest)",
+      "NetworkLocation": "feestgroep via besloten groepschat",
+      "NetworkLocationReShare": "klassenchat op school",
+      "ImpactLocation_HarmLocation": "klas/schoolnetwerk",
+      "Tijdcontext": {
+        "Dagdeel": "avond/nacht",
+        "Weekcontext": "weekend",
+        "Situatie": "feest",
+        "Duur": "momentaan",
+        "Herhaling": "eenmalig"
+      },
+      "SocialeRelatie": "klasgenoot/schoolgenoot",
+      "IntendedAudience": "feestgroep (besloten groep feestgangers in feest-groepschat)",
+      "ActualAudience": "klassenchat (brede schoolklas op school)",
+      "AudienceMismatch": "ja: intended = feestgroep, actual = klassenchat (substantieel breder)",
+      "_Missingness": {
+        "EventLocation": "gemeten",
+        "NetworkLocation": "gemeten",
+        "NetworkLocationReShare": "gemeten",
+        "ImpactLocation_HarmLocation": "gerapporteerd",
+        "Tijdcontext_Dagdeel": "afgeleid",
+        "Tijdcontext_Weekcontext": "gemeten",
+        "Tijdcontext_Situatie": "gemeten",
+        "Tijdcontext_Duur": "afgeleid",
+        "Tijdcontext_Herhaling": "afgeleid",
+        "SocialeRelatie": "afgeleid",
+        "IntendedAudience": "afgeleid",
+        "ActualAudience": "gemeten"
+      }
+    },
+    "BehaviouralContentRecord": {
+      "Zichtbaarheidsniveau": "volledig gekleed",
+      "Gedragsklasse": "uitvoering van opdracht/challenge",
+      "Deelnemersconfiguratie": "1 zichtbare deelnemer met anderen buiten beeld",
+      "LiveOfOpgenomen": "vooraf opgenomen",
+      "Ontstaanswijze": "spel/dare/challenge",
+      "Cameragerichtheid": "opname door derde",
+      "_Missingness": {
+        "Zichtbaarheidsniveau": "afgeleid (geen indicatie van ontkleding of naaktheid in casus)",
+        "Gedragsklasse": "gemeten",
+        "Deelnemersconfiguratie": "afgeleid",
+        "LiveOfOpgenomen": "gemeten",
+        "Ontstaanswijze": "gemeten",
+        "Cameragerichtheid": "gemeten"
+      }
+    },
+    "VisualScriptRecord": {
+      "PrimaryScript": "challenge",
+      "SecondaryScripts": ["humor", "groepsacceptatie"],
+      "ScriptIndicators": ["speelse uitdaging", "feestcontext", "dare-format"],
+      "ScriptPhase": "capture uitgevoerd, daarna publiekescalatie via re-share",
+      "ReportedBy": "casusbeschrijving",
+      "Confidence": "hoog",
+      "_Missingness": {
+        "PrimaryScript": "gemeten",
+        "SecondaryScripts": "afgeleid",
+        "ScriptIndicators": "gemeten",
+        "ScriptPhase": "afgeleid",
+        "ReportedBy": "gemeten",
+        "Confidence": "afgeleid"
+      }
+    },
+    "NormalizationContextRecord": {
+      "Groepsframing": "grappig/speels",
+      "Normbron": "feestgroep",
+      "Normmechanisme": "challengeformat, humor",
+      "Normen": {
+        "DescriptiveNorm": "onbekend",
+        "InjunctiveNorm": "onbekend"
+      },
+      "_Missingness": {
+        "Groepsframing": "afgeleid",
+        "Normbron": "afgeleid",
+        "Normmechanisme": "afgeleid",
+        "Normen_DescriptiveNorm": "niet gemeten",
+        "Normen_InjunctiveNorm": "niet gemeten"
+      }
+    },
+    "DeviceAffordanceRecord": {
+      "Apparaat": "mobiele telefoon (GSM)",
+      "Platformtype": "groepschat (feitelijk: feest-groepschat en klassenchat)",
+      "OpnameAffordances": "directe camera-opname",
+      "Verspreidingsaffordances": [
+        "doorsturen met weinig handelingen",
+        "groepschat delen"
+      ],
+      "Tijdelijkheidsaffordances": "onbekend",
+      "_Missingness": {
+        "Apparaat": "gemeten",
+        "Platformtype": "gemeten",
+        "OpnameAffordances": "gemeten",
+        "Verspreidingsaffordances": "afgeleid",
+        "Tijdelijkheidsaffordances": "niet gemeten"
+      }
+    },
+    "MediaLifecycleRecord": {
+      "Capture": "bewuste opname door ander (18-jarige maakt video van leeftijdsgenoot)",
+      "Storage": "onbekend",
+      "FirstShare": "kleine besloten groep (feest-groepschat)",
+      "ReShare": "zonder bekende instemming verder gedeeld (naar bredere klassenchat)",
+      "Persistence": "onbekend",
+      "PerceivedEphemerality": "onbekend",
+      "ActualPersistence": "onbekend",
+      "_Missingness": {
+        "Capture": "gemeten",
+        "Storage": "niet gemeten",
+        "FirstShare": "gemeten",
+        "ReShare": "gemeten",
+        "Persistence": "niet gemeten",
+        "PerceivedEphemerality": "niet gemeten",
+        "ActualPersistence": "niet gemeten"
+      }
+    },
+    "TrajectoryRecord": {
+      "Trigger": "dare/challenge, feestcontext, humor",
+      "Participation": "vrijwillig na verzoek (speelse dare-context, geen dwang geïndiceerd)",
+      "Discovery": "ontdekking groepschat/schoolnetwerk (volgende dag in klassenchat)",
+      "Response": "onbekend",
+      "Impact": "reputatie-effect, roddels",
+      "Recovery": "onbekend",
+      "_Missingness": {
+        "Trigger": "gemeten",
+        "Participation": "afgeleid",
+        "Discovery": "gerapporteerd",
+        "Response": "niet gemeten",
+        "Impact": "gerapporteerd",
+        "Recovery": "niet gemeten"
+      }
+    },
+    "VisibilityIntentMismatchRecord": {
+      "Typen": ["audience mismatch"],
+      "Omvang": "substantieel (van besloten feestgroep naar gehele klassenchat)",
+      "_Missingness": {
+        "Typen": "afgeleid",
+        "Omvang": "afgeleid"
+      }
+    },
+    "ConsentByActionRecord": {
+      "Deelname_aan_dare": "vrijwillig (speelse context, geen indicatie van dwang)",
+      "Opname": "niet vastgesteld (niet vermeld of subject wist van opname of instemde)",
+      "Storage": "onbekend",
+      "FirstShare_in_feestgroep": "verondersteld (dare als performance voor feestgroep, delen past bij context)",
+      "ReShare_naar_klassenchat": "niet vastgesteld (doorsturen zonder bekende instemming)",
+      "BlijvendeBeschikbaarheid": "onbekend",
+      "_Missingness": {
+        "Deelname_aan_dare": "afgeleid",
+        "Opname": "niet gemeten",
+        "Storage": "niet gemeten",
+        "FirstShare_in_feestgroep": "afgeleid",
+        "ReShare_naar_klassenchat": "afgeleid",
+        "BlijvendeBeschikbaarheid": "niet gemeten"
+      }
+    },
+    "ControlLossRecord": {
+      "FirstLossPoint": "bij re-share (doorschuiven van feest-groepschat naar klassenchat)",
+      "_Missingness": {
+        "FirstLossPoint": "afgeleid"
+      }
+    },
+    "MissingnessMap": {
+      "ToegepasteRegel": "Geen stilzwijgende defaults. Alle niet-vermelde waarden gecodeerd als 'niet gemeten' of 'onbekend'. Instemming niet genoemd ≠ vrijwillig. Opslag niet genoemd ≠ niet opgeslagen. Verwijdering niet genoemd ≠ verwijderd. Schade niet genoemd ≠ geen schade (schade hier wél genoemd: reputatieschade).",
+      "OntbrekendeVelden": [
+        "Storage (niet gespecificeerd of/waar video is opgeslagen)",
+        "Persistence (niet gespecificeerd of video nog beschikbaar is)",
+        "PerceivedEphemerality (niet gespecificeerd of deelnemers dachten dat bericht verdwijnt)",
+        "ActualPersistence (niet gespecificeerd)",
+        "Gender (niet gespecificeerd)",
+        "LandRegio (niet gespecificeerd)",
+        "Tijdelijkheidsaffordances (niet gespecificeerd welk chatplatform)",
+        "DescriptiveNorm (niet gemeten in casus)",
+        "InjunctiveNorm (niet gemeten in casus)",
+        "Response (niet gespecificeerd of/hoe gereageerd is)",
+        "Recovery (niet gespecificeerd)",
+        "CameraPresenceEffect (niet beschreven)",
+        "AudienceFeedbackLoop (niet beschreven)"
+      ]
+    },
+    "EvidenceProfile": {
+      "Bronsoorten": ["incidentrapport (casusbeschrijving)"],
+      "_Missingness": {
+        "Bronsoorten": "gemeten"
+      }
+    },
+    "DeltaInzichten": {
+      "BehaviouralGranularityLadder": "Niveau 3 (gedrag=dare/challenge + script=challenge/humor + camera=opname door derde; lifecycle deels: capture→first-share→re-share)",
+      "ContentFrequencyDenominator": "DENOM_05: gemelde incidenten (enkelvoudige casus)",
+      "CaptureDependencyField": "audience-driven (dare uitgevoerd als performance voor feestgroep, vastgelegd op video)",
+      "ContentToCirculationTransformation": "Privécommunicatie (feestgroep) → Groepsgrap → Statusmateriaal → Publiek incident (schoolnetwerk)",
+      "ViewerParticipationLayer": "passief kijken (feestgroep), doorsturen (1 ontvanger schuift door naar klassenchat)",
+      "RequestToActionDistance": "onmiddellijk/impulsief (dare wordt spontaan uitgevoerd en vastgelegd)",
+      "VisibilityEscalationScore": "Level 2 (kleine feestgroep) → Level 3 (school/klasnetwerk via re-share)",
+      "ContentSourceBias": "casusbeschrijving: beperkte context, geen interviews of directe bronnen",
+      "NonEventBaseline": "niet van toepassing (wel escalatie en schade gerapporteerd)",
+      "SequencePatternLibrary": "Pattern Beta: groepsgrap/dare → re-share → schoolnetwerk",
+      "BehaviourToImageConversionPoint": "opname vanaf begin doel (dare wordt bewust vastgelegd door 18-jarige)",
+      "PromptSourceMap": "feestgroep, dare-context (aanwezigen op feest, speelse challenge)",
+      "ContentEscalationPath": "geen seksuele escalatie; wel publiekescalatie: van feestgroep (Level 2) naar klassenchat (Level 3)",
+      "CameraPresenceEffect": "onbekend",
+      "AudienceFeedbackLoop": "onbekend (niet beschreven in casus)",
+      "SessionBoundaryField": "1 korte interactie (eenmalige dare, eenmalige video-opname)",
+      "ImageSetStructure": "video (1 kort fragment)",
+      "CountingUnitProtocol": "gebeurtenissen (dare), first-shares (1x in feestgroep), re-shares (1x naar klassenchat)",
+      "BehaviouralStoppingPoint": "onbekend (niet beschreven of dare werd afgerond of onderbroken)",
+      "_Missingness": {
+        "CameraPresenceEffect": "niet gemeten",
+        "AudienceFeedbackLoop": "niet gemeten",
+        "BehaviouralStoppingPoint": "niet gemeten"
+      }
+    }
+  }
+}

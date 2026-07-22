@@ -1,0 +1,206 @@
+{
+  "IncidentRecord": {
+    "RecordID": "CASUS_004",
+    "PopulationProfile": {
+      "Leeftijd": 16,
+      "Leeftijdstype": "exacte leeftijd",
+      "SocialePositie": "niet gerapporteerd",
+      "LandRegio": "onbekend",
+      "Gender": "onbekend",
+      "Steekproeftype": "casus",
+      "Populatiebasis": "casus"
+    },
+    "ContextVector": {
+      "EventLocation": {
+        "waarde": "slaapkamer/privéruimte",
+        "toelichting": "'s nachts via laptopcamera in eigen woning"
+      },
+      "NetworkLocation": {
+        "waarde": "online bekende",
+        "toelichting": "1-op-1 videogesprek met een online bekende"
+      },
+      "HarmLocation": {
+        "waarde": "openbaar platform (dreiging)",
+        "toelichting": "tegenpartij dreigt de schermopname later online te plaatsen"
+      },
+      "Tijdcontext": {
+        "Dagdeel": "nacht",
+        "Weekcontext": "onbekend",
+        "Situatie": "online sessie",
+        "Duur": "onbekend",
+        "Herhaling": "onbekend"
+      },
+      "SocialeRelatie": {
+        "waarde": "online bekende",
+        "toelichting": "geen vaste of informele relatie, online contact"
+      }
+    },
+    "BehaviouralContentRecord": {
+      "Zichtbaarheidsniveau": {
+        "waarde": "intieme context zonder verdere specificatie",
+        "toelichting": "casus betreft intieme media-uitwisseling maar exacte zichtbaarheid niet beschreven"
+      },
+      "Gedragsklasse": {
+        "waarde": "visuele performance voor kijkers",
+        "toelichting": "live videogesprek met visuele presentatie, nadere specificatie ontbreekt"
+      },
+      "Deelnemersconfiguratie": {
+        "waarde": "solo met 1 kijker",
+        "toelichting": "16-jarige zichtbaar voor camera; tegenpartij kijkt en neemt op"
+      },
+      "LiveOfOpgenomen": {
+        "waarde": "live en gelijktijdig opgenomen",
+        "toelichting": "gesprek is live, tegenpartij maakt gelijktijdig schermopname via externe software"
+      },
+      "Ontstaanswijze": "onbekend",
+      "Cameragerichtheid": {
+        "waarde": "schermopname",
+        "toelichting": "externe software legt het scherm vast zonder medeweten van de 16-jarige"
+      }
+    },
+    "VisualScriptRecord": {
+      "PrimaryScript": "onbekend",
+      "SecondaryScripts": [],
+      "ScriptIndicators": [],
+      "ScriptPhase": "onbekend",
+      "ReportedBy": "niet van toepassing",
+      "Confidence": "laag"
+    },
+    "NormalizationContextRecord": {
+      "Groepsframing": "onbekend",
+      "Normbron": "onbekend",
+      "Normmechanisme": "onbekend",
+      "DescriptiveNorm": "onbekend",
+      "InjunctiveNorm": "onbekend"
+    },
+    "DeviceAffordanceRecord": {
+      "Apparaat": "laptopcamera",
+      "Platformtype": "videochat",
+      "OpnameAffordances": {
+        "waarde": "schermopname via externe software",
+        "toelichting": "omzeilt eventuele platforminterne screenshotmeldingen of tijdelijke aard"
+      },
+      "Verspreidingsaffordances": {
+        "waarde": "openbaar uploaden (dreiging)",
+        "toelichting": "exact platform of methode van online plaatsing niet gespecificeerd"
+      },
+      "Tijdelijkheidsaffordances": {
+        "waarde": "schermopname mogelijk",
+        "toelichting": "externe software maakt opname mogelijk ongeacht platforminstellingen"
+      }
+    },
+    "MediaLifecycleRecord": {
+      "Capture": {
+        "waarde": "schermopname, opname zonder medeweten",
+        "toelichting": "externe schermopname, niet waargenomen door de 16-jarige"
+      },
+      "Storage": {
+        "waarde": "onbekend",
+        "toelichting": "niet vermeld waar of hoe de opname is opgeslagen"
+      },
+      "FirstShare": {
+        "waarde": "niet gedeeld",
+        "toelichting": "dreiging tot delen, maar volgens casus nog niet uitgevoerd"
+      },
+      "ReShare": "niet van toepassing",
+      "Persistence": {
+        "waarde": "onbekend",
+        "toelichting": "onbekend of de opname bewaard, verwijderd of gekopieerd is"
+      },
+      "PerceivedEphemerality": {
+        "waarde": "onbekend",
+        "toelichting": "niet beschreven of de 16-jarige het gesprek als tijdelijk beschouwde"
+      },
+      "ActualPersistence": {
+        "waarde": "onbekend maar opname bestaat",
+        "toelichting": "schermopname is gemaakt en staat los van platformtijdelijkheid"
+      }
+    },
+    "TrajectoryRecord": {
+      "Trigger": {
+        "waarde": "onbekend",
+        "toelichting": "niet vermeld hoe of waarom het videogesprek tot stand kwam"
+      },
+      "Participation": {
+        "waarde": "onbekend",
+        "toelichting": "niet vermeld of deelname vrijwillig, onder druk of spontaan was"
+      },
+      "Capture": "schermopname zonder medeweten",
+      "Storage": "onbekend",
+      "FirstShare": "niet gedeeld",
+      "ReShare": "niet van toepassing",
+      "Discovery": "onbekend",
+      "Response": "onbekend",
+      "Impact": {
+        "waarde": "dreiging tot online plaatsen",
+        "toelichting": "dreiging vormt de impact: psychologische druk en onzekerheid over mogelijke publicatie"
+      },
+      "Recovery": "onbekend"
+    },
+    "VisibilityIntentMismatchRecord": {
+      "Type": ["audience mismatch", "temporality mismatch"],
+      "Toelichting": "1-op-1 gesprek intended audience; mogelijke publicatie is actual audience; tijdelijke aard mogelijk verondersteld maar opname persistent",
+      "Omvang": "substantieel"
+    },
+    "ConsentByActionRecord": {
+      "Deelname": "onbekend",
+      "Opname": "niet verwacht",
+      "Opslag": "niet verwacht",
+      "FirstShare": "niet verwacht",
+      "ReShare": "niet van toepassing",
+      "BlijvendeBeschikbaarheid": "niet verwacht"
+    },
+    "ControlLossRecord": {
+      "FirstLossPoint": "bij screenshot/schermopname",
+      "Toelichting": "controleverlies op moment dat tegenpartij schermopname start zonder medeweten"
+    },
+    "MissingnessMap": {
+      "SocialePositie": "niet gerapporteerd",
+      "LandRegio": "niet gerapporteerd",
+      "Gender": "niet gerapporteerd",
+      "Weekcontext": "niet gerapporteerd",
+      "Situatie": "niet gerapporteerd",
+      "Duur": "niet gerapporteerd",
+      "Herhaling": "niet gerapporteerd",
+      "Zichtbaarheidsniveau": "niet gerapporteerd (afgeleid uit context)",
+      "Gedragsklasse": "niet gerapporteerd (afgeleid uit context)",
+      "Ontstaanswijze": "niet gerapporteerd",
+      "VisualScript": "niet gerapporteerd",
+      "NormalizationContext": "niet gerapporteerd",
+      "Platformtype": "niet gespecificeerd",
+      "Storage": "niet gerapporteerd",
+      "Persistence": "niet gerapporteerd",
+      "PerceivedEphemerality": "niet gerapporteerd",
+      "Trigger": "niet gerapporteerd",
+      "Participation": "niet gerapporteerd",
+      "Discovery": "niet gerapporteerd",
+      "Response": "niet gerapporteerd",
+      "Recovery": "niet gerapporteerd"
+    },
+    "EvidenceProfile": {
+      "Bronsoort": "incidentrapport",
+      "Toelichting": "korte casusbeschrijving zonder survey-, interview- of platformdata"
+    },
+    "DeltaInzichten": {
+      "BehaviouralGranularityLadder": "Niveau 3",
+      "ContentFrequencyDenominator": "DENOM_05",
+      "CaptureDependency": "audience-driven",
+      "ContentToCirculationTransformation": "dreigingsfase — nog niet gerealiseerd",
+      "ViewerParticipationLayer": ["schermopname", "dreiging tot publicatie"],
+      "RequestToActionDistance": "onbekend",
+      "VisibilityEscalationScore": "Level 1 (1-op-1) met dreiging Level 4 (openbaar platform)",
+      "ContentSourceBias": "incidentrapport",
+      "NonEventBaseline": "dreiging maar geen daadwerkelijke publicatie — nadert non-event",
+      "SequencePattern": "Pattern Gamma (webcam -> schermopname -> platformoverschrijdend, nog niet voltooid)",
+      "BehaviourToImageConversion": "door kijker op afstand (schermopname)",
+      "PromptSourceMap": "onbekend",
+      "ContentEscalationPath": "onbekend",
+      "CameraPresenceEffect": "onbekend",
+      "AudienceFeedbackLoop": "dreiging",
+      "SessionBoundaryField": "vermoedelijk 1 sessie",
+      "ImageSetStructure": "live sessie met schermopname",
+      "CountingUnitProtocol": "gebeurtenissen",
+      "BehaviouralStoppingPoint": "onbekend"
+    }
+  }
+}
