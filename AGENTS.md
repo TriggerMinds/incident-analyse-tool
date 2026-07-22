@@ -31,8 +31,7 @@
     <reference_files>
         Raadpleeg voor alle datavelden, domeinen en waarden:
         - `.kilo/rules/master_codebook.md` — Integraal gedragscodeboek (alle domeinen A t/m P)
-        - `.kilo/rules/delta_insights.md` — Gedragsladders, frequentienoemers, escalatiescores
-        - `docs/` — Aanvullende onderzoeksdocumentatie en analyseresultaten
+        - `.kilo/rules/delta_insights.md` — Gedragsladders, frequentienoemers, escalatiescores, en de Cross-Source Translation Table
     </reference_files>
 
     <output_verification>

@@ -1,0 +1,779 @@
+{
+  "incident_id": "incident_20260722_test_casus_001",
+  "timestamp": "2026-07-22T11:46:18+02:00",
+  "PopulationProfile": {
+    "Age": 16,
+    "AgeCohort": "16-17 jaar",
+    "Gender": "V",
+    "SocialPosition": "leerling",
+    "Region": "ONBEKEND",
+    "SampleType": "kwalitatief",
+    "PopulationBasis": "schoolgebaseerd"
+  },
+  "ContextVector": {
+    "EventLocation": "slaapkamer of andere privéruimte",
+    "NetworkLocation": "vriendengroep",
+    "HarmLocation": "lokaal sociaal netwerk",
+    "TimeContext": {
+      "DayPart": "ONBEKEND",
+      "WeekContext": "ONBEKEND",
+      "Situation": "ONBEKEND",
+      "Duration": "ONBEKEND",
+      "Repetition": "ONBEKEND"
+    },
+    "SocialRelation": "partner (vaste relatie)",
+    "GroupSize": "1-op-1"
+  },
+  "BehaviouralContentRecord": {
+    "VisibilityLevel": "bovenlichaam gedeeltelijk",
+    "BehaviourClass": "lichaam tonen",
+    "ParticipantConfiguration": "solo",
+    "LiveOrRecorded": "vooraf opgenomen",
+    "InitiationMode": "na direct verzoek",
+    "CameraOrientation": "zelfopname",
+    "RecorderRelation": "zelf opgenomen",
+    "SocialFunction": "relationele intimiteit",
+    "IntendedAudience": "partner",
+    "ActualAudience": "beperkt uitgebreid"
+  },
+  "VisualScriptRecord": {
+    "PrimaryScript": "relationeel vertrouwen",
+    "SecondaryScripts": ["impulsiviteit"],
+    "ScriptPhase": "re-share",
+    "ReportedBy": "deelnemer (maker)",
+    "Confidence": "hoog"
+  },
+  "NormalizationContextRecord": {
+    "SocialGroup": "ONBEKEND",
+    "NormalizationFrame": "ONBEKEND",
+    "DescriptiveNorm": "ONBEKEND",
+    "InjunctiveNorm": "ONBEKEND",
+    "PerceivedPrevalence": "ONBEKEND",
+    "MeasuredPrevalence": "ONBEKEND",
+    "BoundaryConditions": "ONBEKEND",
+    "Dissent": "ONBEKEND"
+  },
+  "DeviceAffordanceRecord": {
+    "Device": "mobiele telefoon (GSM)",
+    "PlatformType": "verdwijnberichtendienst",
+    "CaptureAffordances": ["screenshot"],
+    "EphemeralityAffordances": ["verdwijnbericht", "éénmalig bekijken", "screenshot-melding"],
+    "DistributionFriction": "laag"
+  },
+  "MediaLifecycleRecord": {
+    "Capture": "bewuste zelfopname",
+    "Storage": "lokaal toestel",
+    "FirstShare": "partner (1-op-1)",
+    "ReShare": "zonder toestemming",
+    "PerceivedEphemerality": "verdwijnend verondersteld",
+    "ActualPersistence": "screenshot bij derden"
+  },
+  "TrajectoryRecord": {
+    "Trigger": "direct verzoek",
+    "Participation": "vrijwillig na verzoek",
+    "Capture": "bewuste zelfopname",
+    "Storage": "lokaal toestel",
+    "FirstShare": "partner (1-op-1)",
+    "ReShare": "zonder toestemming",
+    "Discovery": "melding door vriend",
+    "Response": "blokkeren",
+    "Impact": ["spijt", "schaamte", "relationeel conflict"],
+    "Recovery": "sociale steun"
+  },
+  "VisibilityIntentMismatchRecord": {
+    "MismatchTypes": ["audience mismatch", "temporality mismatch"],
+    "MismatchMagnitude": "beperkt",
+    "IntendedPurpose": "relationele intimiteit",
+    "ActualUse": "ONBEKEND",
+    "Identifiability": "volledig herkenbaar"
+  },
+  "ConsentByActionRecord": {
+    "ParticipationConsent": "expliciet",
+    "CaptureConsent": "expliciet",
+    "StorageConsent": "niet verwacht",
+    "FirstShareConsent": "expliciet",
+    "ReShareConsent": "niet vastgesteld"
+  },
+  "ControlLossRecord": {
+    "FirstLossPoint": "bij screenshot",
+    "LossDomains": ["aantal kopieën", "ontvangers", "verdere verspreiding"],
+    "Reversibility": "deels reversibel",
+    "ParticipantAwareness": "ontdekt achteraf"
+  },
+  "ResponseAndRecoveryRecord": {
+    "ResponseActions": ["verwijderingsverzoek", "blokkeren"],
+    "ImpactObserved": ["spijt", "schaamte", "relationeel conflict"],
+    "RecoverySupport": ["sociale steun"],
+    "Status": "afgerond"
+  },
+  "DeltaFieldRecord": {
+    "BehaviourToImageConversionPoint": "opname vanaf begin",
+    "PromptSourceMap": "partner",
+    "ContentEscalationPath": "poseren → kleding verwijderen → lichaam tonen → breder",
+    "CameraPresenceEffect": "ONBEKEND",
+    "AudienceFeedbackLoop": "ONBEKEND",
+    "SessionBoundary": "één korte interactie",
+    "CountingUnitProtocol": "gebeurtenissen",
+    "BehaviouralStoppingPoint": "ONBEKEND"
+  },
+  "NonEventBaseline": {
+    "NonEventBaseline": false,
+    "BaselineType": "niet van toepassing"
+  },
+  "EvidenceProfile": {
+    "SourceType": "kwalitatief interview",
+    "EvidenceStatus": "zelfgerapporteerd",
+    "SourceVisibilityBias": "zelfrapportage",
+    "GranularityLevel": 3,
+    "ContentFrequencyDenominator": "incidentmeldingen"
+  },
+  "DeltaInsights": {
+    "CaptureDependency": "camera-induced",
+    "ContentToCirculationTransformation": "privé-communicatie → groepscirculatie",
+    "ViewerParticipationLayer": ["screenshot maken", "actief doorsturen"],
+    "RequestToActionDistance": "onmiddellijk/impulsief",
+    "VisibilityEscalationScore": 2,
+    "SequencePatternMatch": "alpha-variant (relationeel vertrouwen → privé-opname → first-share partner → re-share zonder toestemming → milde impact)",
+    "ImageSetStructure": "enkel beeld",
+    "ContentSourceBias": "kwalitatief interview — hoge diepgang, geen representatieve frequenties"
+  },
+  "MissingnessMap": {
+    "PopulationProfile.Age": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": 16,
+      "EvidenceLocation": "Casus regel 4: 'Een 16-jarig meisje'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "PopulationProfile.AgeCohort": {
+      "Status": "AFGELEID",
+      "ReportedValue": "16-17 jaar",
+      "EvidenceLocation": null,
+      "InferenceReason": "Leeftijd 16 valt binnen cohort 16-17 jaar",
+      "Confidence": "hoog"
+    },
+    "PopulationProfile.Gender": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "V",
+      "EvidenceLocation": "Casus regel 4: 'meisje'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "PopulationProfile.SocialPosition": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "leerling",
+      "EvidenceLocation": "Casus regel 4: '3e klas havo'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "PopulationProfile.Region": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "PopulationProfile.SampleType": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "kwalitatief",
+      "EvidenceLocation": "Casus regel 2: 'kwalitatief interview'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "PopulationProfile.PopulationBasis": {
+      "Status": "AFGELEID",
+      "ReportedValue": "schoolgebaseerd",
+      "EvidenceLocation": null,
+      "InferenceReason": "Deelnemer is leerling 3e klas havo, werving via schoolcontext",
+      "Confidence": "middel"
+    },
+    "ContextVector.EventLocation": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "slaapkamer of andere privéruimte",
+      "EvidenceLocation": "Casus regel 4: 'slaapkamer thuis'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ContextVector.NetworkLocation": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "vriendengroep",
+      "EvidenceLocation": "Casus regel 4-6: 'vaste relatie' en 'stuurt naar vriend'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ContextVector.HarmLocation": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "lokaal sociaal netwerk",
+      "EvidenceLocation": "Casus regel 7-8: schaamte, klasgenoot die iets weet",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ContextVector.TimeContext.DayPart": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "ContextVector.TimeContext.WeekContext": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "ContextVector.TimeContext.Situation": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "ContextVector.TimeContext.Duration": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "ContextVector.TimeContext.Repetition": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "ContextVector.SocialRelation": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "partner (vaste relatie)",
+      "EvidenceLocation": "Casus regel 4-5: 'vaste relatie met een 17-jarige jongen'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ContextVector.GroupSize": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "1-op-1",
+      "EvidenceLocation": "Casus regel 5: 'stuurt ... naar haar vriend'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "BehaviouralContentRecord.VisibilityLevel": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "bovenlichaam gedeeltelijk",
+      "EvidenceLocation": "Casus regel 5: 'foto van zichzelf in beha'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "BehaviouralContentRecord.BehaviourClass": {
+      "Status": "AFGELEID",
+      "ReportedValue": "lichaam tonen",
+      "EvidenceLocation": null,
+      "InferenceReason": "Poseren in beha voor camera valt onder lichaam tonen",
+      "Confidence": "hoog"
+    },
+    "BehaviouralContentRecord.ParticipantConfiguration": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "solo",
+      "EvidenceLocation": "Casus regel 5: 'foto van zichzelf'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "BehaviouralContentRecord.LiveOrRecorded": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "vooraf opgenomen",
+      "EvidenceLocation": "Casus regel 5: 'stuurt een foto' (stilstaand beeld, vooraf gemaakt)",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "BehaviouralContentRecord.InitiationMode": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "na direct verzoek",
+      "EvidenceLocation": "Casus regel 5: 'omdat hij erom vroeg'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "BehaviouralContentRecord.CameraOrientation": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "zelfopname",
+      "EvidenceLocation": "Casus regel 5: 'foto van zichzelf' (selfie)",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "BehaviouralContentRecord.RecorderRelation": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "zelf opgenomen",
+      "EvidenceLocation": "Casus regel 5: zelfportret, eigen telefoon",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "BehaviouralContentRecord.SocialFunction": {
+      "Status": "AFGELEID",
+      "ReportedValue": "relationele intimiteit",
+      "EvidenceLocation": null,
+      "InferenceReason": "Verzonden in context van vaste relatie op verzoek van partner",
+      "Confidence": "middel"
+    },
+    "BehaviouralContentRecord.IntendedAudience": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "partner",
+      "EvidenceLocation": "Casus regel 5: 'naar haar vriend'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "BehaviouralContentRecord.ActualAudience": {
+      "Status": "AFGELEID",
+      "ReportedValue": "beperkt uitgebreid",
+      "EvidenceLocation": null,
+      "InferenceReason": "Bedoeld voor partner; feitelijk bij partner, beste vriend, en klasgenoot bekend",
+      "Confidence": "middel"
+    },
+    "VisualScriptRecord.PrimaryScript": {
+      "Status": "AFGELEID",
+      "ReportedValue": "relationeel vertrouwen",
+      "EvidenceLocation": null,
+      "InferenceReason": "Foto gestuurd binnen vaste relatie op verzoek van partner",
+      "Confidence": "middel"
+    },
+    "VisualScriptRecord.ScriptPhase": {
+      "Status": "AFGELEID",
+      "ReportedValue": "re-share",
+      "EvidenceLocation": null,
+      "InferenceReason": "Kern van incident is de ongeautoriseerde re-share (screenshot + doorsturen)",
+      "Confidence": "hoog"
+    },
+    "VisualScriptRecord.ReportedBy": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "deelnemer (maker)",
+      "EvidenceLocation": "Casus regel 2: 'Zelfrapportage in kwalitatief interview'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "VisualScriptRecord.Confidence": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "hoog",
+      "EvidenceLocation": "Casus: zelfrapportage door direct betrokkene",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "NormalizationContextRecord.SocialGroup": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "NormalizationContextRecord.NormalizationFrame": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "NormalizationContextRecord.DescriptiveNorm": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "NormalizationContextRecord.InjunctiveNorm": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "NormalizationContextRecord.PerceivedPrevalence": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "NormalizationContextRecord.MeasuredPrevalence": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "NormalizationContextRecord.BoundaryConditions": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "NormalizationContextRecord.Dissent": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "DeviceAffordanceRecord.Device": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "mobiele telefoon (GSM)",
+      "EvidenceLocation": "Casus regel 4: 'op haar telefoon'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "DeviceAffordanceRecord.PlatformType": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "verdwijnberichtendienst",
+      "EvidenceLocation": "Casus regel 5: 'Via Snapchat'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "DeviceAffordanceRecord.CaptureAffordances": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": ["screenshot"],
+      "EvidenceLocation": "Casus regel 6: 'maakt stiekem een screenshot'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "DeviceAffordanceRecord.EphemeralityAffordances": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": ["verdwijnbericht", "éénmalig bekijken", "screenshot-melding"],
+      "EvidenceLocation": "Casus regel 5-6: 'éénmalig bekijken', screenshot-melding stond uit'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "DeviceAffordanceRecord.DistributionFriction": {
+      "Status": "AFGELEID",
+      "ReportedValue": "laag",
+      "EvidenceLocation": null,
+      "InferenceReason": "Screenshot was mogelijk zonder melding; doorsturen naar andere chat eenvoudig",
+      "Confidence": "hoog"
+    },
+    "MediaLifecycleRecord.Capture": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "bewuste zelfopname",
+      "EvidenceLocation": "Casus regel 5: 'foto van zichzelf'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "MediaLifecycleRecord.Storage": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "lokaal toestel",
+      "EvidenceLocation": "Casus regel 6: screenshot opgeslagen op telefoon van vriend",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "MediaLifecycleRecord.FirstShare": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "partner (1-op-1)",
+      "EvidenceLocation": "Casus regel 5: 'stuurt ... naar haar vriend'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "MediaLifecycleRecord.ReShare": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "zonder toestemming",
+      "EvidenceLocation": "Casus regel 6-7: 'stiekem screenshot', 'stuurt door' zonder medeweten",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "MediaLifecycleRecord.PerceivedEphemerality": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "verdwijnend verondersteld",
+      "EvidenceLocation": "Casus regel 5: 'ingesteld op éénmalig bekijken'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "MediaLifecycleRecord.ActualPersistence": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "screenshot bij derden",
+      "EvidenceLocation": "Casus regel 6-7: screenshot gemaakt en doorgestuurd naar beste vriend",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.Trigger": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "direct verzoek",
+      "EvidenceLocation": "Casus regel 5: 'omdat hij erom vroeg'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.Participation": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "vrijwillig na verzoek",
+      "EvidenceLocation": "Casus regel 5: ze maakt en stuurt de foto als reactie op verzoek",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.Capture": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "bewuste zelfopname",
+      "EvidenceLocation": "Casus regel 5: 'foto van zichzelf'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.Storage": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "lokaal toestel",
+      "EvidenceLocation": "Casus regel 6: screenshot op telefoon vriend",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.FirstShare": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "partner (1-op-1)",
+      "EvidenceLocation": "Casus regel 5: 'stuurt ... naar haar vriend'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.ReShare": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "zonder toestemming",
+      "EvidenceLocation": "Casus regel 6-7: stiekem screenshot, doorgestuurd naar beste vriend",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.Discovery": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "melding door vriend",
+      "EvidenceLocation": "Casus regel 7: 'hoort van een klasgenoot'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.Response": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "blokkeren",
+      "EvidenceLocation": "Casus regel 8: 'blokkeert hem op social media'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.Impact": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": ["spijt", "schaamte", "relationeel conflict"],
+      "EvidenceLocation": "Casus regel 7-8: 'schaamt zich, heeft spijt', 'relatie verbroken'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "TrajectoryRecord.Recovery": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "sociale steun",
+      "EvidenceLocation": "Casus regel 8: 'praat erover met haar beste vriendin'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "VisibilityIntentMismatchRecord.MismatchTypes": {
+      "Status": "AFGELEID",
+      "ReportedValue": ["audience mismatch", "temporality mismatch"],
+      "EvidenceLocation": null,
+      "InferenceReason": "Doelgroep: alleen partner, feitelijk breder. Tijdelijkheid: éénmalig bekijken, feitelijk screenshot.",
+      "Confidence": "hoog"
+    },
+    "VisibilityIntentMismatchRecord.MismatchMagnitude": {
+      "Status": "AFGELEID",
+      "ReportedValue": "beperkt",
+      "EvidenceLocation": null,
+      "InferenceReason": "Bereik uitgebreid van 1 naar circa 3 personen; geen openbaar platform",
+      "Confidence": "middel"
+    },
+    "VisibilityIntentMismatchRecord.IntendedPurpose": {
+      "Status": "AFGELEID",
+      "ReportedValue": "relationele intimiteit",
+      "EvidenceLocation": null,
+      "InferenceReason": "Zelfde als SocialFunction: verzonden binnen vaste relatie",
+      "Confidence": "middel"
+    },
+    "VisibilityIntentMismatchRecord.ActualUse": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": "Motief van vriend voor doorsturen niet vermeld in bron",
+      "Confidence": "niet van toepassing"
+    },
+    "VisibilityIntentMismatchRecord.Identifiability": {
+      "Status": "AFGELEID",
+      "ReportedValue": "volledig herkenbaar",
+      "EvidenceLocation": null,
+      "InferenceReason": "Zelfportret met herkenbaar gezicht; klasgenoot herkende de persoon",
+      "Confidence": "hoog"
+    },
+    "ConsentByActionRecord.ParticipationConsent": {
+      "Status": "AFGELEID",
+      "ReportedValue": "expliciet",
+      "EvidenceLocation": null,
+      "InferenceReason": "Koos ervoor de foto te maken en te versturen na verzoek",
+      "Confidence": "hoog"
+    },
+    "ConsentByActionRecord.CaptureConsent": {
+      "Status": "AFGELEID",
+      "ReportedValue": "expliciet",
+      "EvidenceLocation": null,
+      "InferenceReason": "Nam zelf de foto; was zich bewust van de camera",
+      "Confidence": "hoog"
+    },
+    "ConsentByActionRecord.StorageConsent": {
+      "Status": "AFGELEID",
+      "ReportedValue": "niet verwacht",
+      "EvidenceLocation": null,
+      "InferenceReason": "Gebruikte éénmalig bekijken op Snapchat; verwachtte geen persistente opslag",
+      "Confidence": "hoog"
+    },
+    "ConsentByActionRecord.FirstShareConsent": {
+      "Status": "AFGELEID",
+      "ReportedValue": "expliciet",
+      "EvidenceLocation": null,
+      "InferenceReason": "Verstuurde de foto bewust naar haar vriend",
+      "Confidence": "hoog"
+    },
+    "ConsentByActionRecord.ReShareConsent": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "niet vastgesteld",
+      "EvidenceLocation": "Casus regel 6: 'heeft het meisje niet gezien' — geen gelegenheid tot consent",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ControlLossRecord.FirstLossPoint": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "bij screenshot",
+      "EvidenceLocation": "Casus regel 6: 'maakt stiekem een screenshot'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ControlLossRecord.LossDomains": {
+      "Status": "AFGELEID",
+      "ReportedValue": ["aantal kopieën", "ontvangers", "verdere verspreiding"],
+      "EvidenceLocation": null,
+      "InferenceReason": "Screenshot creëert extra kopie; doorgestuurd naar extra ontvanger; potentieel voor verdere verspreiding via klasgenoot",
+      "Confidence": "middel"
+    },
+    "ControlLossRecord.Reversibility": {
+      "Status": "AFGELEID",
+      "ReportedValue": "deels reversibel",
+      "EvidenceLocation": null,
+      "InferenceReason": "Vriend beweert verwijderd; foto circuleert echter nog in sociale kennis (klasgenoot weet ervan)",
+      "Confidence": "middel"
+    },
+    "ControlLossRecord.ParticipantAwareness": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "ontdekt achteraf",
+      "EvidenceLocation": "Casus regel 6-7: 'niet gezien', pas na een week gehoord van klasgenoot",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ResponseAndRecoveryRecord.ResponseActions": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": ["verwijderingsverzoek", "blokkeren"],
+      "EvidenceLocation": "Casus regel 7-8: 'vraagt haar vriend om de foto te verwijderen', 'blokkeert hem'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ResponseAndRecoveryRecord.ImpactObserved": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": ["spijt", "schaamte", "relationeel conflict"],
+      "EvidenceLocation": "Casus regel 7-8: 'schaamt zich, heeft spijt', 'relatie verbroken'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ResponseAndRecoveryRecord.RecoverySupport": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": ["sociale steun"],
+      "EvidenceLocation": "Casus regel 8: 'praat erover met haar beste vriendin'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "ResponseAndRecoveryRecord.Status": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "afgerond",
+      "EvidenceLocation": "Casus regel 8: 'niet heel schadelijk op lange termijn'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "DeltaFieldRecord.BehaviourToImageConversionPoint": {
+      "Status": "AFGELEID",
+      "ReportedValue": "opname vanaf begin",
+      "EvidenceLocation": null,
+      "InferenceReason": "Beslissing tot fotograferen viel voorafgaand aan het poseren",
+      "Confidence": "hoog"
+    },
+    "DeltaFieldRecord.PromptSourceMap": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "partner",
+      "EvidenceLocation": "Casus regel 5: 'omdat hij erom vroeg'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "DeltaFieldRecord.ContentEscalationPath": {
+      "Status": "NIET VAN TOEPASSING",
+      "ReportedValue": "poseren → kleding verwijderen → lichaam tonen → breder",
+      "EvidenceLocation": null,
+      "InferenceReason": "Vast pad zoals gedefinieerd in codeboek; casus bevat één beeld op niveau 'lichaam tonen'",
+      "Confidence": "niet van toepassing"
+    },
+    "DeltaFieldRecord.CameraPresenceEffect": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": null,
+      "Confidence": "niet van toepassing"
+    },
+    "DeltaFieldRecord.AudienceFeedbackLoop": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": "Geen live publiek tijdens creatie; alleen direct verzoek vooraf",
+      "Confidence": "niet van toepassing"
+    },
+    "DeltaFieldRecord.SessionBoundary": {
+      "Status": "AFGELEID",
+      "ReportedValue": "één korte interactie",
+      "EvidenceLocation": null,
+      "InferenceReason": "Eenmalige foto, geen aanwijzingen voor meerdere sessies of terugkerend patroon",
+      "Confidence": "hoog"
+    },
+    "DeltaFieldRecord.CountingUnitProtocol": {
+      "Status": "AFGELEID",
+      "ReportedValue": "gebeurtenissen",
+      "EvidenceLocation": null,
+      "InferenceReason": "Analyse betreft één samenhangende incidentgebeurtenis",
+      "Confidence": "hoog"
+    },
+    "DeltaFieldRecord.BehaviouralStoppingPoint": {
+      "Status": "NIET GEMETEN",
+      "ReportedValue": "ONBEKEND",
+      "EvidenceLocation": null,
+      "InferenceReason": "Reden waarom zij stopte bij bovenlichaam tonen niet vermeld",
+      "Confidence": "niet van toepassing"
+    },
+    "EvidenceProfile.SourceType": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "kwalitatief interview",
+      "EvidenceLocation": "Casus regel 2: 'Zelfrapportage in kwalitatief interview'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "EvidenceProfile.EvidenceStatus": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "zelfgerapporteerd",
+      "EvidenceLocation": "Casus regel 2: 'Zelfrapportage'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "EvidenceProfile.SourceVisibilityBias": {
+      "Status": "GERAPPORTEERD",
+      "ReportedValue": "zelfrapportage",
+      "EvidenceLocation": "Casus regel 2: 'Zelfrapportage in kwalitatief interview'",
+      "InferenceReason": null,
+      "Confidence": "hoog"
+    },
+    "EvidenceProfile.GranularityLevel": {
+      "Status": "AFGELEID",
+      "ReportedValue": 3,
+      "EvidenceLocation": null,
+      "InferenceReason": "Casus biedt gedragsklasse (lichaam tonen), visibility level (bovenlichaam gedeeltelijk), en interactiestructuur",
+      "Confidence": "hoog"
+    },
+    "EvidenceProfile.ContentFrequencyDenominator": {
+      "Status": "AFGELEID",
+      "ReportedValue": "incidentmeldingen",
+      "EvidenceLocation": null,
+      "InferenceReason": "Enkele casus uit kwalitatief onderzoek, geen brede survey-noemer",
+      "Confidence": "hoog"
+    }
+  }
+}
